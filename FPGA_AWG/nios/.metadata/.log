@@ -1,0 +1,2577 @@
+!SESSION 2010-05-11 18:59:59.078 -----------------------------------------------
+eclipse.buildId=M20080911-1700
+java.version=1.6.0_14
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2010-05-11 19:00:12.046
+!MESSAGE Initializing System Console Model
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 19:00:13.046
+!MESSAGE Exception thrown for Device EP2C8, no SLD nodes will be added for this device: SLD_HUB_NOT_PRESENT
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 19:00:13.062
+!MESSAGE Exception thrown for Device EP2C8, no SLD nodes will be added for this device: SLD_HUB_NOT_PRESENT
+
+!ENTRY com.altera.sbtgui.launch 1 0 2010-05-11 19:00:13.062
+!MESSAGE Done Initializing System Console Model
+
+!ENTRY org.eclipse.cdt.core 1 0 2010-05-11 19:02:02.734
+!MESSAGE Indexed 'awg_bsp' (0 sources, 6 headers) in 0.62 sec: 0 declarations; 0 references; 6 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2010-05-11 19:02:18.453
+!MESSAGE Indexed 'awg' (0 sources, 6 headers) in 0.02 sec: 0 declarations; 0 references; 6 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:16.781
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:16.859
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:16.859
+!MESSAGE No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:16.859
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:16.859
+!MESSAGE No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:16.859
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:16.859
+!MESSAGE No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:16.859
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:16.859
+!MESSAGE No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:16.859
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:16.859
+!MESSAGE No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:16.859
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:16.859
+!MESSAGE No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:17.890
+!MESSAGE ClassNotFoundException: sun.awt.X11.XlibWrapper
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:19.140
+!MESSAGE A project name must be selected.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:19.140
+!MESSAGE No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:19.140
+!MESSAGE No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:19.187
+!MESSAGE A project name must be selected.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:22.578
+!MESSAGE No ELF file path has been selected.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:22.578
+!MESSAGE No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:22.578
+!MESSAGE No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:22.609
+!MESSAGE No ELF file path has been selected.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:22.625
+!MESSAGE No ELF file path has been selected.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:22.625
+!MESSAGE No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:22.625
+!MESSAGE No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:22.640
+!MESSAGE No ELF file path has been selected.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:22.640
+!MESSAGE A project name must be selected.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:22.656
+!MESSAGE No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:22.656
+!MESSAGE No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:22.687
+!MESSAGE A project name must be selected.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:30.406
+!MESSAGE A project name must be selected.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:30.406
+!MESSAGE No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:30.421
+!MESSAGE No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:48.953
+!MESSAGE A project name must be selected.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:48.984
+!MESSAGE A project name must be selected.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:48.984
+!MESSAGE A project name must be selected.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:49.015
+!MESSAGE A project name must be selected.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:49.015
+!MESSAGE A project name must be selected.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:49.046
+!MESSAGE A project name must be selected.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:49.046
+!MESSAGE A project name must be selected.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:49.078
+!MESSAGE A project name must be selected.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:49.078
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:49.093
+!MESSAGE A project name must be selected.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:49.109
+!MESSAGE A project name must be selected.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:49.125
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:49.140
+!MESSAGE A project name must be selected.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:49.156
+!MESSAGE A project name must be selected.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:49.156
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:49.156
+!MESSAGE A project name must be selected.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:49.187
+!MESSAGE A project name must be selected.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:49.187
+!MESSAGE A project name must be selected.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:49.203
+!MESSAGE Select one of the available target connection paths.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:49.234
+!MESSAGE A project name must be selected.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:49.234
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:49.234
+!MESSAGE Select one of the available target connection paths.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:49.234
+!MESSAGE A project name must be selected.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:49.234
+!MESSAGE Select one of the available target connection paths.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:49.265
+!MESSAGE A project name must be selected.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:49.265
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:49.265
+!MESSAGE Select one of the available target connection paths.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:49.265
+!MESSAGE A project name must be selected.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:49.265
+!MESSAGE Select one of the available target connection paths.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:49.296
+!MESSAGE A project name must be selected.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:49.296
+!MESSAGE A project name must be selected.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:49.343
+!MESSAGE A project name must be selected.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:49.343
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:49.343
+!MESSAGE A project name must be selected.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:49.359
+!MESSAGE A project name must be selected.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:49.375
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:49.375
+!MESSAGE A project name must be selected.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:49.390
+!MESSAGE A project name must be selected.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:49.406
+!MESSAGE A project name must be selected.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:49.421
+!MESSAGE A project name must be selected.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:49.421
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:49.421
+!MESSAGE A project name must be selected.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:49.453
+!MESSAGE A project name must be selected.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:49.453
+!MESSAGE A project name must be selected.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:12:49.484
+!MESSAGE A project name must be selected.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:13:19.296
+!MESSAGE A project name must be selected.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:13:29.468
+!MESSAGE A project name must be selected.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:13:29.500
+!MESSAGE A project name must be selected.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:13:29.500
+!MESSAGE A project name must be selected.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:13:30.609
+!MESSAGE A project name must be selected.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:13:35.609
+!MESSAGE A project name must be selected.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:13:38.296
+!MESSAGE No ELF file path has been selected.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:13:38.328
+!MESSAGE No ELF file path has been selected.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:13:38.328
+!MESSAGE A project name must be selected.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:13:38.359
+!MESSAGE A project name must be selected.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:13:53.734
+!MESSAGE A project name must be selected.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:13:55.046
+!MESSAGE A project name must be selected.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:13:56.906
+!MESSAGE No ELF file path has been selected.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:13:56.937
+!MESSAGE No ELF file path has been selected.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:13:56.953
+!MESSAGE A project name must be selected.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:13:56.984
+!MESSAGE A project name must be selected.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:14:05.578
+!MESSAGE A project name must be selected.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:14:05.609
+!MESSAGE A project name must be selected.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:14:10.312
+!MESSAGE No ELF file path has been selected.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:14:10.343
+!MESSAGE No ELF file path has been selected.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:14:10.343
+!MESSAGE A project name must be selected.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:14:10.375
+!MESSAGE A project name must be selected.
+!SESSION 2010-05-11 19:14:23.140 -----------------------------------------------
+eclipse.buildId=M20080911-1700
+java.version=1.6.0_14
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2010-05-11 19:14:46.781
+!MESSAGE Initializing System Console Model
+
+!ENTRY com.altera.sbtgui.launch 1 0 2010-05-11 19:14:47.796
+!MESSAGE Done Initializing System Console Model
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:15:11.968
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:15:12.406
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:15:12.406
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:15:12.406
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:15:12.421
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:15:12.421
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:15:12.421
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:15:12.421
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:15:12.421
+!MESSAGE Select one of the available target connection paths.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:15:12.421
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:15:12.421
+!MESSAGE Select one of the available target connection paths.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:15:12.421
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:15:12.421
+!MESSAGE Select one of the available target connection paths.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:15:12.421
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:15:12.421
+!MESSAGE Select one of the available target connection paths.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:15:12.421
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:15:12.421
+!MESSAGE Select one of the available target connection paths.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:15:12.421
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:15:12.421
+!MESSAGE Select one of the available target connection paths.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:15:12.421
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:15:12.421
+!MESSAGE Select one of the available target connection paths.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:15:13.562
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:15:13.562
+!MESSAGE Select one of the available target connection paths.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:15:13.562
+!MESSAGE Select one of the available target connection paths.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:15:13.671
+!MESSAGE Select one of the available target connection paths.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:15:13.765
+!MESSAGE Select one of the available target connection paths.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:15:13.875
+!MESSAGE Select one of the available target connection paths.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:15:13.968
+!MESSAGE Select one of the available target connection paths.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:15:14.078
+!MESSAGE Select one of the available target connection paths.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:15:14.171
+!MESSAGE Select one of the available target connection paths.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:15:14.281
+!MESSAGE Select one of the available target connection paths.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:15:14.375
+!MESSAGE Select one of the available target connection paths.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:15:14.484
+!MESSAGE Select one of the available target connection paths.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:15:14.578
+!MESSAGE Select one of the available target connection paths.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:15:14.578
+!MESSAGE Select one of the available target connection paths.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:15:15.562
+!MESSAGE ClassNotFoundException: sun.awt.X11.XlibWrapper
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:15:17.218
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:15:17.218
+!MESSAGE Select one of the available target connection paths.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:15:17.250
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:15:17.250
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:15:24.812
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 1 0 2010-05-11 19:15:24.859
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, d:\altera\91\quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=' --device=1 --instance=0 --go /cygdrive/e/Temporary/AWG/software/awg/awg.elf]
+!SESSION 2010-05-11 19:45:16.328 -----------------------------------------------
+eclipse.buildId=M20080911-1700
+java.version=1.6.0_14
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2010-05-11 19:45:31.093
+!MESSAGE Initializing System Console Model
+
+!ENTRY com.altera.sbtgui.launch 1 0 2010-05-11 19:45:32.109
+!MESSAGE Done Initializing System Console Model
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:16.296
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:16.296
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:16.296
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:16.296
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:16.343
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:16.343
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:16.343
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:16.343
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:16.343
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:16.437
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:16.437
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:16.546
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:16.546
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:16.640
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:16.640
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:16.750
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:16.750
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:16.843
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:16.859
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:16.953
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:16.953
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:17.062
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:17.062
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:17.156
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:17.156
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:17.265
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:17.265
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:17.359
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:17.359
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:17.359
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:17.359
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:19.343
+!MESSAGE ClassNotFoundException: sun.awt.X11.XlibWrapper
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:21.406
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:21.406
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:21.406
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:21.531
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:21.531
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:21.625
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:21.625
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:25.265
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:25.265
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:28.515
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:28.515
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 19:59:28.515
+!MESSAGE The expected CPU name does not match the selected target CPU name.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:28.562
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:28.562
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 19:59:28.562
+!MESSAGE The expected CPU name does not match the selected target CPU name.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:28.562
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:28.562
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:28.578
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:28.578
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:28.578
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:28.609
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:28.609
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:28.609
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:28.609
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:28.609
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:28.609
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:28.609
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:28.640
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:28.640
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:28.640
+!MESSAGE Select one of the available target connection paths.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:28.687
+!MESSAGE Select one of the available target connection paths.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:28.687
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:28.687
+!MESSAGE Select one of the available target connection paths.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:28.687
+!MESSAGE Select one of the available target connection paths.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:28.718
+!MESSAGE Select one of the available target connection paths.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:28.734
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:28.734
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:28.765
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:28.765
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:28.765
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:28.765
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:28.765
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:28.765
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:28.765
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:28.812
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:28.812
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:28.812
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:28.812
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:28.843
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:28.843
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:28.843
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:28.843
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:28.843
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:28.843
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:28.843
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:28.875
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:28.875
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:28.875
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:28.875
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:28.890
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:28.906
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:58.937
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:58.937
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 19:59:58.937
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2010-05-11 19:59:58.953
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, d:\altera\91\quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster [USB-0]' --device=1 --instance=0 --go --sidp=N/A --id=N/A --timestamp=N/A /cygdrive/e/Temporary/AWG/software/awg/awg.elf]
+!SESSION 2010-05-11 20:01:13.953 -----------------------------------------------
+eclipse.buildId=M20080911-1700
+java.version=1.6.0_14
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2010-05-11 20:01:29.156
+!MESSAGE Initializing System Console Model
+
+!ENTRY com.altera.sbtgui.launch 1 0 2010-05-11 20:01:30.171
+!MESSAGE Done Initializing System Console Model
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:39.750
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:39.765
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:39.765
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:39.765
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:40.062
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:40.062
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:40.062
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:40.062
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:40.062
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:40.156
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:40.156
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:40.265
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:40.265
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:40.359
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:40.359
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:40.468
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:40.468
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:40.562
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:40.578
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:40.671
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:40.671
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:40.765
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:40.781
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:40.875
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:40.875
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:40.968
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:40.984
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:41.078
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:41.078
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:41.078
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:41.078
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:42.109
+!MESSAGE ClassNotFoundException: sun.awt.X11.XlibWrapper
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:44.406
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:44.406
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:44.406
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:44.546
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:44.546
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:44.578
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:44.578
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:49.953
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:49.953
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:52.656
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:52.656
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:19:52.656
+!MESSAGE The expected CPU name does not match the selected target CPU name.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:52.703
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:52.718
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:19:52.718
+!MESSAGE The expected CPU name does not match the selected target CPU name.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:52.718
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:52.718
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:52.718
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:52.718
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:52.718
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:52.750
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:52.750
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:52.750
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:52.750
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:52.750
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:52.765
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:52.765
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:52.781
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:52.781
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:52.796
+!MESSAGE Select one of the available target connection paths.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:52.828
+!MESSAGE Select one of the available target connection paths.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:52.828
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:52.828
+!MESSAGE Select one of the available target connection paths.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:52.843
+!MESSAGE Select one of the available target connection paths.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:52.859
+!MESSAGE Select one of the available target connection paths.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:52.875
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:52.875
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:52.906
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:52.906
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:52.906
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:52.906
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:52.906
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:52.906
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:52.921
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:52.937
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:52.937
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:52.953
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:52.953
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:52.968
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:52.968
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:52.968
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:52.968
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:52.984
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:52.984
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:52.984
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:53.000
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:53.000
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:53.015
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:53.015
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:53.046
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:19:53.046
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:20:56.140
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:20:56.140
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:20:56.140
+!MESSAGE The expected CPU name does not match the selected target CPU name.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:20:56.203
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:20:56.203
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:20:56.203
+!MESSAGE The expected CPU name does not match the selected target CPU name.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:20:56.203
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:20:56.203
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:20:56.203
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:20:56.203
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:20:56.203
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:20:56.234
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:20:56.234
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:20:56.234
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:20:56.234
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:20:56.234
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:20:56.234
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:20:56.250
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:20:56.265
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:20:56.265
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:20:56.281
+!MESSAGE Select one of the available target connection paths.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:20:56.328
+!MESSAGE Select one of the available target connection paths.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:20:56.328
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:20:56.328
+!MESSAGE Select one of the available target connection paths.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:20:56.328
+!MESSAGE Select one of the available target connection paths.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:20:56.359
+!MESSAGE Select one of the available target connection paths.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:20:56.359
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:20:56.359
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:20:56.406
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:20:56.406
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:20:56.406
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:20:56.406
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:20:56.406
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:20:56.406
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:20:56.406
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:20:56.437
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:20:56.437
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:20:56.437
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:20:56.437
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:20:56.468
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:20:56.468
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:20:56.468
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:20:56.468
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:20:56.468
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:20:56.468
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:20:56.468
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:20:56.500
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:20:56.500
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:20:56.500
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:20:56.500
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:20:56.531
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:20:56.531
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:21:09.953
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:21:09.953
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:21:09.953
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:21:09.953
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:21:09.953
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:21:09.984
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:21:09.984
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:21:23.187
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:23.187
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:21:23.187
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:23.187
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:21:23.187
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:23.218
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:21:23.218
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:35.093
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:21:35.093
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:35.093
+!MESSAGE The expected CPU name does not match the selected target CPU name.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:35.125
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:21:35.125
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:35.140
+!MESSAGE The expected CPU name does not match the selected target CPU name.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:21:35.140
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:35.140
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:21:35.140
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:35.140
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:21:35.140
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:35.171
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:21:35.171
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:21:35.171
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:35.171
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:21:35.171
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:35.171
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:21:35.171
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:35.203
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:21:35.203
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:21:35.203
+!MESSAGE Select one of the available target connection paths.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:21:35.250
+!MESSAGE Select one of the available target connection paths.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:21:35.250
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:21:35.250
+!MESSAGE Select one of the available target connection paths.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:21:35.250
+!MESSAGE Select one of the available target connection paths.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:21:35.281
+!MESSAGE Select one of the available target connection paths.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:35.281
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:21:35.281
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:35.312
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:21:35.312
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:21:35.312
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:35.312
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:21:35.312
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:35.328
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:21:35.328
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:35.343
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:21:35.343
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:35.343
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:21:35.359
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:35.375
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:21:35.375
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:21:35.375
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:35.375
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:21:35.375
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:35.375
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:21:35.390
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:35.406
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:21:35.406
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:35.406
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:21:35.406
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:35.437
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:21:35.437
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:21:38.734
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:38.734
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:38.734
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:38.734
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:38.734
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:38.781
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:38.781
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:41.062
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:41.062
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:41.062
+!MESSAGE The expected CPU name does not match the selected target CPU name.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:41.109
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:41.109
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:41.109
+!MESSAGE The expected CPU name does not match the selected target CPU name.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:21:41.109
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:41.109
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:41.109
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:41.109
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:41.109
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:41.156
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:41.156
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:21:41.156
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:41.156
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:41.156
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:41.156
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:41.156
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:41.187
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:41.187
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:21:41.187
+!MESSAGE Select one of the available target connection paths.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:21:41.218
+!MESSAGE Select one of the available target connection paths.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:21:41.218
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:21:41.218
+!MESSAGE Select one of the available target connection paths.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:21:41.234
+!MESSAGE Select one of the available target connection paths.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:21:41.250
+!MESSAGE Select one of the available target connection paths.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:41.250
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:41.250
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:41.328
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:41.328
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:21:41.328
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:41.328
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:41.328
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:41.328
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:41.328
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:41.359
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:41.359
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:41.359
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:41.359
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:41.375
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:41.375
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:21:41.390
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:41.390
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:41.390
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:41.390
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:41.390
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:41.406
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:41.406
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:41.406
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:41.406
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:41.437
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:41.437
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:21:56.468
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:56.468
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:21:56.468
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2010-05-11 20:21:56.500
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, d:\altera\91\quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=N/A --id=N/A --timestamp=N/A /cygdrive/e/Temporary/AWG/software/awg/awg.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:41:58.796
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:41:58.812
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:41:58.812
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:41:58.875
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:41:58.890
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:41:58.906
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:41:58.906
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:42:01.187
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:42:01.187
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:42:06.890
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:42:06.890
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:42:08.687
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:42:08.687
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:42:08.718
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:42:08.718
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:42:08.718
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:42:08.718
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:42:10.015
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:42:10.015
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:50:01.468
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:50:01.484
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:50:01.484
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:50:01.484
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:50:01.484
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:50:01.484
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:50:01.484
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 20:50:13.718
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:50:13.718
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 20:50:13.718
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2010-05-11 20:50:13.718
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, d:\altera\91\quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=N/A --id=N/A --timestamp=N/A /cygdrive/e/Temporary/AWG/software/awg/awg.elf]
+!SESSION 2010-05-11 21:00:32.515 -----------------------------------------------
+eclipse.buildId=M20080911-1700
+java.version=1.6.0_14
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2010-05-11 21:00:49.578
+!MESSAGE Initializing System Console Model
+
+!ENTRY com.altera.sbtgui.launch 1 0 2010-05-11 21:00:50.593
+!MESSAGE Done Initializing System Console Model
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 21:10:29.656
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 21:10:29.656
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 21:10:29.656
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 21:10:29.656
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 21:10:29.718
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 21:10:29.718
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 21:10:29.718
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 21:10:29.718
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 21:10:29.718
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 21:10:29.718
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 21:10:29.718
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 21:10:29.718
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 21:10:29.718
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 21:10:29.718
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 21:10:29.718
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 21:10:29.718
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 21:10:29.718
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 21:10:40.421
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 21:10:40.421
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 21:10:40.421
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2010-05-11 21:10:40.453
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, d:\altera\91\quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=N/A --id=N/A --timestamp=N/A /cygdrive/e/Temporary/AWG/software/awg/awg.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 21:13:37.250
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 21:13:37.250
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-11 21:13:37.250
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2010-05-11 21:13:37.265
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, d:\altera\91\quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=N/A --id=N/A --timestamp=N/A /cygdrive/e/Temporary/AWG/software/awg/awg.elf]
+!SESSION 2010-05-11 21:57:32.265 -----------------------------------------------
+eclipse.buildId=M20080911-1700
+java.version=1.6.0_14
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2010-05-11 21:57:47.171
+!MESSAGE Initializing System Console Model
+
+!ENTRY com.altera.sbtgui.launch 1 0 2010-05-11 21:57:47.250
+!MESSAGE Done Initializing System Console Model
+!SESSION 2010-05-11 23:11:32.875 -----------------------------------------------
+eclipse.buildId=M20080911-1700
+java.version=1.6.0_14
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2010-05-11 23:12:05.500
+!MESSAGE Initializing System Console Model
+
+!ENTRY com.altera.sbtgui.launch 1 0 2010-05-11 23:12:05.546
+!MESSAGE Done Initializing System Console Model
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-11 23:12:33.156
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+!SESSION 2010-05-11 23:17:09.781 -----------------------------------------------
+eclipse.buildId=M20080911-1700
+java.version=1.6.0_14
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2010-05-11 23:17:23.187
+!MESSAGE Initializing System Console Model
+
+!ENTRY com.altera.sbtgui.launch 1 0 2010-05-11 23:17:23.218
+!MESSAGE Done Initializing System Console Model
+!SESSION 2010-05-12 09:27:18.421 -----------------------------------------------
+eclipse.buildId=M20080911-1700
+java.version=1.6.0_14
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2010-05-12 09:27:45.328
+!MESSAGE Initializing System Console Model
+
+!ENTRY com.altera.sbtgui.launch 1 0 2010-05-12 09:27:45.390
+!MESSAGE Done Initializing System Console Model
+!SESSION 2010-05-13 17:07:49.812 -----------------------------------------------
+eclipse.buildId=M20080911-1700
+java.version=1.6.0_14
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2010-05-13 17:10:09.015
+!MESSAGE Initializing System Console Model
+
+!ENTRY com.altera.sbtgui.launch 1 0 2010-05-13 17:10:09.078
+!MESSAGE Done Initializing System Console Model
+!SESSION 2010-05-14 21:14:18.687 -----------------------------------------------
+eclipse.buildId=M20080911-1700
+java.version=1.6.0_14
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2010-05-14 21:14:57.093
+!MESSAGE Initializing System Console Model
+
+!ENTRY com.altera.sbtgui.launch 1 0 2010-05-14 21:14:57.156
+!MESSAGE Done Initializing System Console Model
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-14 21:15:54.468
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+!SESSION 2010-05-14 23:00:54.281 -----------------------------------------------
+eclipse.buildId=M20080911-1700
+java.version=1.6.0_14
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2010-05-14 23:01:25.578
+!MESSAGE Initializing System Console Model
+
+!ENTRY com.altera.sbtgui.launch 1 0 2010-05-14 23:01:25.656
+!MESSAGE Done Initializing System Console Model
+!SESSION 2010-05-15 10:52:59.906 -----------------------------------------------
+eclipse.buildId=M20080911-1700
+java.version=1.6.0_14
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2010-05-15 10:53:41.140
+!MESSAGE Initializing System Console Model
+
+!ENTRY com.altera.sbtgui.launch 1 0 2010-05-15 10:53:42.171
+!MESSAGE Done Initializing System Console Model
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-15 10:53:50.406
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-15 10:53:50.406
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-15 10:53:50.406
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-15 10:53:50.421
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-15 10:54:05.312
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-15 10:54:05.312
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-15 10:54:05.312
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-15 10:54:05.312
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-15 10:54:05.312
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-15 10:54:05.312
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-05-15 10:54:05.312
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-15 10:54:05.328
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-05-15 10:54:05.328
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2010-05-15 10:54:05.406
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, d:\altera\91\quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=N/A --id=N/A --timestamp=N/A /cygdrive/e/Temporary/AWG/software/awg/awg.elf]
+!SESSION 2010-05-18 20:09:06.859 -----------------------------------------------
+eclipse.buildId=M20080911-1700
+java.version=1.6.0_14
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2010-05-18 20:09:40.078
+!MESSAGE Initializing System Console Model
+
+!ENTRY com.altera.sbtgui.launch 1 0 2010-05-18 20:09:40.125
+!MESSAGE Done Initializing System Console Model
+!SESSION 2010-06-04 08:46:45.640 -----------------------------------------------
+eclipse.buildId=M20080911-1700
+java.version=1.6.0_14
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2010-06-04 08:47:10.750
+!MESSAGE Initializing System Console Model
+
+!ENTRY com.altera.sbtgui.launch 1 0 2010-06-04 08:47:10.812
+!MESSAGE Done Initializing System Console Model
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-06-04 08:47:52.000
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+!SESSION 2010-06-04 09:42:02.515 -----------------------------------------------
+eclipse.buildId=M20080911-1700
+java.version=1.6.0_14
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2010-06-04 09:42:17.671
+!MESSAGE Initializing System Console Model
+
+!ENTRY com.altera.sbtgui.launch 1 0 2010-06-04 09:42:17.703
+!MESSAGE Done Initializing System Console Model
+!SESSION 2010-06-05 14:49:40.500 -----------------------------------------------
+eclipse.buildId=M20080911-1700
+java.version=1.6.0_14
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2010-06-05 14:50:13.359
+!MESSAGE Initializing System Console Model
+
+!ENTRY com.altera.sbtgui.launch 1 0 2010-06-05 14:50:13.421
+!MESSAGE Done Initializing System Console Model
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-06-05 14:50:16.093
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY org.eclipse.ui 4 0 2010-06-05 14:50:30.625
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.launch.internal.CApplicationLaunchShortcut.createConfiguration(CApplicationLaunchShortcut.java:206)
+	at org.eclipse.cdt.launch.internal.CApplicationLaunchShortcut.findLaunchConfiguration(CApplicationLaunchShortcut.java:161)
+	at org.eclipse.cdt.launch.internal.CApplicationLaunchShortcut.launch(CApplicationLaunchShortcut.java:77)
+	at org.eclipse.cdt.launch.internal.CApplicationLaunchShortcut.searchAndLaunch(CApplicationLaunchShortcut.java:441)
+	at org.eclipse.cdt.launch.internal.CApplicationLaunchShortcut.launch(CApplicationLaunchShortcut.java:72)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.launch(LaunchShortcutExtension.java:434)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.launchShortcut(ContextRunner.java:218)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.selectAndLaunch(ContextRunner.java:135)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.selectAndLaunch(ContextRunner.java:162)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.launch(ContextRunner.java:81)
+	at org.eclipse.debug.ui.actions.AbstractLaunchToolbarAction.run(AbstractLaunchToolbarAction.java:80)
+	at org.eclipse.ui.internal.PluginAction.runWithEvent(PluginAction.java:251)
+	at org.eclipse.ui.internal.WWinPluginAction.runWithEvent(WWinPluginAction.java:229)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:583)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:500)
+	at org.eclipse.jface.action.ActionContributionItem$6.handleEvent(ActionContributionItem.java:452)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3823)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3422)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1212)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-06-05 14:51:02.468
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-06-05 14:51:02.468
+!MESSAGE No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-06-05 14:51:02.468
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-06-05 14:51:02.468
+!MESSAGE No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-06-05 14:51:02.468
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-06-05 14:51:02.468
+!MESSAGE No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-06-05 14:51:02.468
+!MESSAGE No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-06-05 14:51:02.578
+!MESSAGE No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-06-05 14:51:02.687
+!MESSAGE No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-06-05 14:51:02.781
+!MESSAGE No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-06-05 14:51:02.890
+!MESSAGE No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-06-05 14:51:02.984
+!MESSAGE No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-06-05 14:51:03.093
+!MESSAGE No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-06-05 14:51:03.187
+!MESSAGE No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-06-05 14:51:03.296
+!MESSAGE No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-06-05 14:51:03.390
+!MESSAGE No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-06-05 14:51:03.500
+!MESSAGE No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-06-05 14:51:03.500
+!MESSAGE No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-06-05 14:51:07.546
+!MESSAGE ClassNotFoundException: sun.awt.X11.XlibWrapper
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-06-05 14:51:10.250
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-06-05 14:51:10.250
+!MESSAGE No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-06-05 14:51:10.265
+!MESSAGE No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-06-05 14:51:10.437
+!MESSAGE No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-06-05 14:51:10.437
+!MESSAGE No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-06-05 14:51:10.484
+!MESSAGE No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-06-05 14:51:10.484
+!MESSAGE No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-06-05 14:51:13.453
+!MESSAGE No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-06-05 14:51:13.453
+!MESSAGE No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-06-05 14:51:16.281
+!MESSAGE No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-06-05 14:51:16.281
+!MESSAGE No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-06-05 14:51:16.328
+!MESSAGE No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-06-05 14:51:16.328
+!MESSAGE No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-06-05 14:51:16.328
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-06-05 14:51:16.328
+!MESSAGE No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-06-05 14:51:16.328
+!MESSAGE No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-06-05 14:51:16.328
+!MESSAGE No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-06-05 14:51:16.328
+!MESSAGE No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-06-05 14:51:16.359
+!MESSAGE No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-06-05 14:51:16.359
+!MESSAGE No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-06-05 14:51:16.359
+!MESSAGE No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-06-05 14:51:16.359
+!MESSAGE No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-06-05 14:51:16.390
+!MESSAGE No Nios II target connection paths were located. Check connections and that a Nios II .sof is downloaded.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-06-05 14:51:16.390
+!MESSAGE No Nios II byte stream devices connection paths were located. Check connections and that a Nios II .sof is downloaded.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-06-05 14:51:33.218
+!MESSAGE Actual system ID value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-06-05 14:51:33.218
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-06-05 14:51:33.218
+!MESSAGE The expected CPU name does not match the selected target CPU name.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-06-05 14:51:33.250
+!MESSAGE Actual system ID value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-06-05 14:51:33.250
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-06-05 14:51:33.250
+!MESSAGE The expected CPU name does not match the selected target CPU name.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-06-05 14:51:33.250
+!MESSAGE Actual system ID value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-06-05 14:51:33.250
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-06-05 14:51:33.250
+!MESSAGE The expected CPU name does not match the selected target CPU name.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-06-05 14:51:33.281
+!MESSAGE Actual system ID value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-06-05 14:51:33.281
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-06-05 14:51:33.281
+!MESSAGE The expected CPU name does not match the selected target CPU name.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-06-05 14:51:33.281
+!MESSAGE Actual system ID value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-06-05 14:51:33.281
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-06-05 14:51:33.281
+!MESSAGE The expected CPU name does not match the selected target CPU name.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-06-05 14:51:33.312
+!MESSAGE Actual system ID value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-06-05 14:51:33.312
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-06-05 14:51:33.312
+!MESSAGE The expected CPU name does not match the selected target CPU name.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-06-05 14:51:33.312
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-06-05 14:51:33.312
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-06-05 14:51:33.312
+!MESSAGE The expected CPU name does not match the selected target CPU name.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-06-05 14:51:33.328
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-06-05 14:51:33.328
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-06-05 14:51:33.343
+!MESSAGE The expected CPU name does not match the selected target CPU name.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-06-05 14:51:33.359
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-06-05 14:51:33.359
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-06-05 14:51:33.359
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-06-05 14:51:33.359
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-06-05 14:51:33.359
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-06-05 14:51:33.406
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-06-05 14:51:33.406
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-06-05 14:51:33.406
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-06-05 14:51:33.406
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-06-05 14:51:33.406
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-06-05 14:51:33.406
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-06-05 14:51:33.406
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-06-05 14:51:33.437
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-06-05 14:51:33.437
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-06-05 14:51:33.453
+!MESSAGE Select one of the available target connection paths.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-06-05 14:51:33.484
+!MESSAGE Select one of the available target connection paths.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-06-05 14:51:33.484
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-06-05 14:51:33.484
+!MESSAGE Select one of the available target connection paths.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-06-05 14:51:33.500
+!MESSAGE Select one of the available target connection paths.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-06-05 14:51:33.515
+!MESSAGE Select one of the available target connection paths.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-06-05 14:51:33.531
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-06-05 14:51:33.531
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-06-05 14:51:33.562
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-06-05 14:51:33.562
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-06-05 14:51:33.578
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-06-05 14:51:33.578
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-06-05 14:51:33.578
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-06-05 14:51:33.578
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-06-05 14:51:33.578
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-06-05 14:51:33.593
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-06-05 14:51:33.593
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-06-05 14:51:33.609
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-06-05 14:51:33.609
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-06-05 14:51:33.625
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-06-05 14:51:33.625
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-06-05 14:51:33.625
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-06-05 14:51:33.625
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-06-05 14:51:33.625
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-06-05 14:51:33.625
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-06-05 14:51:33.625
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-06-05 14:51:33.656
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-06-05 14:51:33.656
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-06-05 14:51:33.656
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-06-05 14:51:33.656
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-06-05 14:51:33.687
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-06-05 14:51:33.687
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-06-05 14:52:34.500
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-06-05 14:52:34.500
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-06-05 14:52:34.500
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-06-05 14:52:34.500
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-06-05 14:52:34.500
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-06-05 14:52:34.500
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-06-05 14:52:34.500
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-06-05 14:52:56.421
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-06-05 14:52:56.421
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-06-05 14:52:56.421
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2010-06-05 14:52:56.468
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, d:\altera\91\quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=N/A --id=N/A --timestamp=N/A /cygdrive/e/Temporary/AWG/software/awg/awg.elf]
+!SESSION 2010-06-05 15:01:29.046 -----------------------------------------------
+eclipse.buildId=M20080911-1700
+java.version=1.6.0_14
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2010-06-05 15:01:43.968
+!MESSAGE Initializing System Console Model
+
+!ENTRY com.altera.sbtgui.launch 1 0 2010-06-05 15:01:44.984
+!MESSAGE Done Initializing System Console Model
+!SESSION 2010-06-05 15:21:23.265 -----------------------------------------------
+eclipse.buildId=M20080911-1700
+java.version=1.6.0_14
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2010-06-05 15:21:47.437
+!MESSAGE Initializing System Console Model
+
+!ENTRY com.altera.sbtgui.launch 1 0 2010-06-05 15:21:48.484
+!MESSAGE Done Initializing System Console Model
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-06-05 15:22:05.468
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-06-05 15:22:05.468
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-06-05 15:22:05.468
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-06-05 15:22:05.468
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-06-05 15:23:25.125
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-06-05 15:23:25.125
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-06-05 15:23:25.125
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-06-05 15:23:25.125
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-06-05 15:23:25.125
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-06-05 15:23:25.125
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-06-05 15:23:25.125
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-06-05 15:23:25.125
+!MESSAGE Actual system ID not found on target at base address
+
+!ENTRY com.altera.sbtgui.launch 2 0 2010-06-05 15:23:25.125
+!MESSAGE Actual system timestamp value has not been initialized yet.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2010-06-05 15:23:25.187
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, d:\altera\91\quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=N/A --id=N/A --timestamp=N/A /cygdrive/e/Temporary/AWG/software/awg/awg.elf]
+!SESSION 2010-06-05 22:01:52.140 -----------------------------------------------
+eclipse.buildId=M20080911-1700
+java.version=1.6.0_14
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2010-06-05 22:03:11.468
+!MESSAGE Initializing System Console Model
+
+!ENTRY com.altera.sbtgui.launch 1 0 2010-06-05 22:03:11.546
+!MESSAGE Done Initializing System Console Model
+!SESSION 2010-06-07 15:56:23.843 -----------------------------------------------
+eclipse.buildId=M20080911-1700
+java.version=1.6.0_14
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2010-06-07 15:57:05.859
+!MESSAGE Initializing System Console Model
+
+!ENTRY com.altera.sbtgui.launch 1 0 2010-06-07 15:57:05.906
+!MESSAGE Done Initializing System Console Model
+!SESSION 2010-06-12 10:20:52.203 -----------------------------------------------
+eclipse.buildId=M20080911-1700
+java.version=1.6.0_14
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2010-06-12 10:21:28.656
+!MESSAGE Initializing System Console Model
+
+!ENTRY com.altera.sbtgui.launch 1 0 2010-06-12 10:21:28.718
+!MESSAGE Done Initializing System Console Model
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-06-12 10:21:32.734
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+!SESSION 2010-06-14 13:07:07.250 -----------------------------------------------
+eclipse.buildId=M20080911-1700
+java.version=1.6.0_14
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2010-06-14 13:07:43.562
+!MESSAGE Initializing System Console Model
+
+!ENTRY com.altera.sbtgui.launch 1 0 2010-06-14 13:07:43.609
+!MESSAGE Done Initializing System Console Model
+!SESSION 2010-06-25 15:50:38.437 -----------------------------------------------
+eclipse.buildId=M20080911-1700
+java.version=1.6.0_14
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2010-06-25 15:51:06.687
+!MESSAGE Initializing System Console Model
+
+!ENTRY com.altera.sbtgui.launch 1 0 2010-06-25 15:51:07.718
+!MESSAGE Done Initializing System Console Model
+!SESSION 2010-06-25 16:40:00.500 -----------------------------------------------
+eclipse.buildId=M20080911-1700
+java.version=1.6.0_14
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2010-06-25 16:40:16.281
+!MESSAGE Initializing System Console Model
+
+!ENTRY com.altera.sbtgui.launch 1 0 2010-06-25 16:40:16.328
+!MESSAGE Done Initializing System Console Model
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-06-25 16:40:20.843
+!MESSAGE No Nios II CPU was specified for the SOPC Design
+!SESSION 2010-06-25 16:45:39.796 -----------------------------------------------
+eclipse.buildId=M20080911-1700
+java.version=1.6.0_14
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2010-06-25 16:45:53.875
+!MESSAGE Initializing System Console Model
+
+!ENTRY com.altera.sbtgui.launch 1 0 2010-06-25 16:45:53.906
+!MESSAGE Done Initializing System Console Model
+
+!ENTRY com.altera.sbtgui.launch 4 0 2010-06-25 16:45:58.781
+!MESSAGE No Nios II CPU was specified for the SOPC Design

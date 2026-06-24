@@ -1,0 +1,16 @@
+
+
+D:/File/CubeMX/STM-FPGA/FPGA_AWG/AWG.v
+
+Jun 24 02PM:32:11>: Megafunction Altera SOPC Builder is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+D:/File/CubeMX/STM-FPGA/FPGA_AWG/awg.v
+
+Jun 24 02PM:34:34>: Megafunction Altera SOPC Builder is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+D:/File/CubeMX/STM-FPGA/FPGA_AWG/awg.v
+
+Jun 24 02PM:34:35>: Megafunction Altera SOPC Builder is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted

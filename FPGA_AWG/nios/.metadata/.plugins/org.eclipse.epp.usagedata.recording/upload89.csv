@@ -1,0 +1,11 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.mylyn.tasks.ui,3.0.2.v20080918-1100-e3x,org.eclipse.mylyn.tasks.ui,1275612431218
+started,bundle,org.eclipse.mylyn.team.ui,3.0.2.v20080918-1100-e3x,org.eclipse.mylyn.team.ui,1275612431250
+started,bundle,org.eclipse.mylyn.monitor.ui,3.0.2.v20080918-1100-e3x,org.eclipse.mylyn.monitor.ui,1275612431437
+started,bundle,org.eclipse.jsch.core,1.1.100.I20080604,org.eclipse.jsch.core,1275612431765
+started,bundle,org.eclipse.team.cvs.core,3.3.101.r34x_20080827,org.eclipse.team.cvs.core,1275612431765
+started,bundle,org.eclipse.team.ui,3.4.1.r34x_20080827,org.eclipse.team.ui,1275612431828
+started,bundle,org.eclipse.ui.console,3.3.0.v20080529-1300,org.eclipse.ui.console,1275612431921
+started,bundle,org.eclipse.epp.usagedata.ui,1.0.1.R200809220400,org.eclipse.epp.usagedata.ui,1275612431921
+started,bundle,org.eclipse.team.cvs.ui,3.3.100.I20080604,org.eclipse.team.cvs.ui,1275612432250
+deactivated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1275612433703

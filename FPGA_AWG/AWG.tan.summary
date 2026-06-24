@@ -1,0 +1,106 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : 3.889 ns
+From           : RXD
+To             : AWG:inst|uart_0:the_uart_0|uart_0_rx:the_uart_0_rx|altera_std_synchronizer:the_altera_std_synchronizer|din_s1
+From Clock     : --
+To Clock       : CLK_50M
+Failed Paths   : 0
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 9.984 ns
+From           : lpm_ram_dp0:inst4|altsyncram:altsyncram_component|altsyncram_o3m1:auto_generated|altsyncram_77q1:altsyncram1|q_a[5]
+To             : P[18]
+From Clock     : CLK_50M
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case tpd
+Slack          : N/A
+Required Time  : None
+Actual Time    : 3.056 ns
+From           : altera_internal_jtag~TDO
+To             : altera_reserved_tdo
+From Clock     : --
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : 2.835 ns
+From           : altera_internal_jtag~TDIUTAP
+To             : sld_hub:auto_hub|jtag_ir_reg[9]
+From Clock     : --
+To Clock       : altera_internal_jtag~TCKUTAP
+Failed Paths   : 0
+
+Type           : Clock Setup: 'altpll0:inst1|altpll:altpll_component|_clk0'
+Slack          : 4.654 ns
+Required Time  : 100.00 MHz ( period = 10.000 ns )
+Actual Time    : N/A
+From           : AWG:inst|freq_word:the_freq_word|data_out[13]
+To             : add_cnt:inst5|RDaddress[9]
+From Clock     : altpll0:inst1|altpll:altpll_component|_clk2
+To Clock       : altpll0:inst1|altpll:altpll_component|_clk0
+Failed Paths   : 0
+
+Type           : Clock Setup: 'altpll0:inst1|altpll:altpll_component|_clk2'
+Slack          : 5.537 ns
+Required Time  : 50.00 MHz ( period = 20.000 ns )
+Actual Time    : 69.14 MHz ( period = 14.463 ns )
+From           : AWG:inst|sdram_0:the_sdram_0|sdram_0_input_efifo_module:the_sdram_0_input_efifo_module|rd_address
+To             : AWG:inst|sdram_0:the_sdram_0|m_addr[6]
+From Clock     : altpll0:inst1|altpll:altpll_component|_clk2
+To Clock       : altpll0:inst1|altpll:altpll_component|_clk2
+Failed Paths   : 0
+
+Type           : Clock Setup: 'altera_internal_jtag~TCKUTAP'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 118.74 MHz ( period = 8.422 ns )
+From           : sld_hub:auto_hub|irsr_reg[1]
+To             : sld_hub:auto_hub|tdo
+From Clock     : altera_internal_jtag~TCKUTAP
+To Clock       : altera_internal_jtag~TCKUTAP
+Failed Paths   : 0
+
+Type           : Clock Hold: 'altpll0:inst1|altpll:altpll_component|_clk2'
+Slack          : -2.310 ns
+Required Time  : 50.00 MHz ( period = 20.000 ns )
+Actual Time    : N/A
+From           : AWG:inst|UART2DPRAM:the_UART2DPRAM|data_out[3]
+To             : lpm_ram_dp0:inst4|altsyncram:altsyncram_component|altsyncram_o3m1:auto_generated|altsyncram_77q1:altsyncram1|ram_block2a0~portb_datain_reg3
+From Clock     : altpll0:inst1|altpll:altpll_component|_clk2
+To Clock       : altpll0:inst1|altpll:altpll_component|_clk2
+Failed Paths   : 90
+
+Type           : Clock Hold: 'altpll0:inst1|altpll:altpll_component|_clk0'
+Slack          : 0.753 ns
+Required Time  : 100.00 MHz ( period = 10.000 ns )
+Actual Time    : N/A
+From           : add_cnt:inst5|RDaddress[9]
+To             : add_cnt:inst5|RDaddress[9]
+From Clock     : altpll0:inst1|altpll:altpll_component|_clk0
+To Clock       : altpll0:inst1|altpll:altpll_component|_clk0
+Failed Paths   : 0
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 90
+
+--------------------------------------------------------------------------------------
+

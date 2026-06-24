@@ -1,0 +1,57 @@
+# Reading D:/APP/altera/14.1/modelsim_ase/tcl/vsim/pref.tcl
+# do LED_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.3c Lib Mapping Utility 2014.09 Sep 20 2014
+# vmap -modelsim_quiet work rtl_work 
+# Copying D:/APP/altera/14.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:/APP/altera/14.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+D:/File/CubeMX/STM-FPGA/FPGA_Learning_Project {D:/File/CubeMX/STM-FPGA/FPGA_Learning_Project/LED.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 18:14:54 on Jun 24,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/File/CubeMX/STM-FPGA/FPGA_Learning_Project" D:/File/CubeMX/STM-FPGA/FPGA_Learning_Project/LED.v 
+# -- Compiling module LED
+# 
+# Top level modules:
+# 	LED
+# End time: 18:14:54 on Jun 24,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+D:/File/CubeMX/STM-FPGA/FPGA_Learning_Project/output_files {D:/File/CubeMX/STM-FPGA/FPGA_Learning_Project/output_files/tb_LED.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 18:14:54 on Jun 24,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/File/CubeMX/STM-FPGA/FPGA_Learning_Project/output_files" D:/File/CubeMX/STM-FPGA/FPGA_Learning_Project/output_files/tb_LED.v 
+# -- Compiling module tb_LED
+# 
+# Top level modules:
+# 	tb_LED
+# End time: 18:14:55 on Jun 24,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  tb_LED
+# vsim -gui "+altera" -l msim_transcript -do "LED_run_msim_rtl_verilog.do" 
+# Start time: 18:14:55 on Jun 24,2026
+# Loading work.tb_LED
+# Loading work.LED
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: $finish    : D:/File/CubeMX/STM-FPGA/FPGA_Learning_Project/output_files/tb_LED.v(23)
+#    Time: 1 ms  Iteration: 0  Instance: /tb_LED
+# 1
+# Break in Module tb_LED at D:/File/CubeMX/STM-FPGA/FPGA_Learning_Project/output_files/tb_LED.v line 23
+# Simulation Breakpoint: 1
+# Break in Module tb_LED at D:/File/CubeMX/STM-FPGA/FPGA_Learning_Project/output_files/tb_LED.v line 23
+# MACRO ./LED_run_msim_rtl_verilog.do PAUSED at line 17
+# End time: 18:48:25 on Jun 24,2026, Elapsed time: 0:33:30
+# Errors: 0, Warnings: 0

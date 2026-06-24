@@ -1,0 +1,218 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 16 16 664 304)
+	(text "AWG_clock_0_in_arbitrator" (rect 5 0 138 12)(font "Arial" ))
+	(text "inst" (rect 8 272 25 284)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "AWG_clock_0_in_endofpacket" (rect 0 0 151 12)(font "Arial" ))
+		(text "AWG_clock_0_in_endofpacket" (rect 21 27 172 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 1))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "AWG_clock_0_in_readdata[15..0]" (rect 0 0 164 12)(font "Arial" ))
+		(text "AWG_clock_0_in_readdata[15..0]" (rect 21 43 185 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48)(line_width 3))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "AWG_clock_0_in_waitrequest" (rect 0 0 145 12)(font "Arial" ))
+		(text "AWG_clock_0_in_waitrequest" (rect 21 59 166 71)(font "Arial" ))
+		(line (pt 0 64)(pt 16 64)(line_width 1))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "clk" (rect 0 0 14 12)(font "Arial" ))
+		(text "clk" (rect 21 75 35 87)(font "Arial" ))
+		(line (pt 0 80)(pt 16 80)(line_width 1))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "cpu_0_data_master_address_to_slave[24..0]" (rect 0 0 221 12)(font "Arial" ))
+		(text "cpu_0_data_master_address_to_slave[24..0]" (rect 21 91 242 103)(font "Arial" ))
+		(line (pt 0 96)(pt 16 96)(line_width 3))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "cpu_0_data_master_byteenable[3..0]" (rect 0 0 182 12)(font "Arial" ))
+		(text "cpu_0_data_master_byteenable[3..0]" (rect 21 107 203 119)(font "Arial" ))
+		(line (pt 0 112)(pt 16 112)(line_width 3))
+	)
+	(port
+		(pt 0 128)
+		(input)
+		(text "cpu_0_data_master_latency_counter" (rect 0 0 181 12)(font "Arial" ))
+		(text "cpu_0_data_master_latency_counter" (rect 21 123 202 135)(font "Arial" ))
+		(line (pt 0 128)(pt 16 128)(line_width 1))
+	)
+	(port
+		(pt 0 144)
+		(input)
+		(text "cpu_0_data_master_read" (rect 0 0 123 12)(font "Arial" ))
+		(text "cpu_0_data_master_read" (rect 21 139 144 151)(font "Arial" ))
+		(line (pt 0 144)(pt 16 144)(line_width 1))
+	)
+	(port
+		(pt 0 160)
+		(input)
+		(text "cpu_0_data_master_read_data_valid_sdram_0_s1_shift_register" (rect 0 0 317 12)(font "Arial" ))
+		(text "cpu_0_data_master_read_data_valid_sdram_0_s1_shift_register" (rect 21 155 338 167)(font "Arial" ))
+		(line (pt 0 160)(pt 16 160)(line_width 1))
+	)
+	(port
+		(pt 0 176)
+		(input)
+		(text "cpu_0_data_master_write" (rect 0 0 125 12)(font "Arial" ))
+		(text "cpu_0_data_master_write" (rect 21 171 146 183)(font "Arial" ))
+		(line (pt 0 176)(pt 16 176)(line_width 1))
+	)
+	(port
+		(pt 0 192)
+		(input)
+		(text "cpu_0_data_master_writedata[31..0]" (rect 0 0 178 12)(font "Arial" ))
+		(text "cpu_0_data_master_writedata[31..0]" (rect 21 187 199 199)(font "Arial" ))
+		(line (pt 0 192)(pt 16 192)(line_width 3))
+	)
+	(port
+		(pt 0 208)
+		(input)
+		(text "reset_n" (rect 0 0 36 12)(font "Arial" ))
+		(text "reset_n" (rect 21 203 57 215)(font "Arial" ))
+		(line (pt 0 208)(pt 16 208)(line_width 1))
+	)
+	(port
+		(pt 648 32)
+		(output)
+		(text "AWG_clock_0_in_address[2..0]" (rect 0 0 154 12)(font "Arial" ))
+		(text "AWG_clock_0_in_address[2..0]" (rect 473 27 627 39)(font "Arial" ))
+		(line (pt 648 32)(pt 632 32)(line_width 3))
+	)
+	(port
+		(pt 648 48)
+		(output)
+		(text "AWG_clock_0_in_byteenable[1..0]" (rect 0 0 169 12)(font "Arial" ))
+		(text "AWG_clock_0_in_byteenable[1..0]" (rect 458 43 627 55)(font "Arial" ))
+		(line (pt 648 48)(pt 632 48)(line_width 3))
+	)
+	(port
+		(pt 648 64)
+		(output)
+		(text "AWG_clock_0_in_endofpacket_from_sa" (rect 0 0 198 12)(font "Arial" ))
+		(text "AWG_clock_0_in_endofpacket_from_sa" (rect 429 59 627 71)(font "Arial" ))
+		(line (pt 648 64)(pt 632 64)(line_width 1))
+	)
+	(port
+		(pt 648 80)
+		(output)
+		(text "AWG_clock_0_in_nativeaddress[1..0]" (rect 0 0 185 12)(font "Arial" ))
+		(text "AWG_clock_0_in_nativeaddress[1..0]" (rect 442 75 627 87)(font "Arial" ))
+		(line (pt 648 80)(pt 632 80)(line_width 3))
+	)
+	(port
+		(pt 648 96)
+		(output)
+		(text "AWG_clock_0_in_read" (rect 0 0 110 12)(font "Arial" ))
+		(text "AWG_clock_0_in_read" (rect 517 91 627 103)(font "Arial" ))
+		(line (pt 648 96)(pt 632 96)(line_width 1))
+	)
+	(port
+		(pt 648 112)
+		(output)
+		(text "AWG_clock_0_in_readdata_from_sa[15..0]" (rect 0 0 211 12)(font "Arial" ))
+		(text "AWG_clock_0_in_readdata_from_sa[15..0]" (rect 416 107 627 119)(font "Arial" ))
+		(line (pt 648 112)(pt 632 112)(line_width 3))
+	)
+	(port
+		(pt 648 128)
+		(output)
+		(text "AWG_clock_0_in_reset_n" (rect 0 0 126 12)(font "Arial" ))
+		(text "AWG_clock_0_in_reset_n" (rect 501 123 627 135)(font "Arial" ))
+		(line (pt 648 128)(pt 632 128)(line_width 1))
+	)
+	(port
+		(pt 648 144)
+		(output)
+		(text "AWG_clock_0_in_waitrequest_from_sa" (rect 0 0 192 12)(font "Arial" ))
+		(text "AWG_clock_0_in_waitrequest_from_sa" (rect 435 139 627 151)(font "Arial" ))
+		(line (pt 648 144)(pt 632 144)(line_width 1))
+	)
+	(port
+		(pt 648 160)
+		(output)
+		(text "AWG_clock_0_in_write" (rect 0 0 112 12)(font "Arial" ))
+		(text "AWG_clock_0_in_write" (rect 515 155 627 167)(font "Arial" ))
+		(line (pt 648 160)(pt 632 160)(line_width 1))
+	)
+	(port
+		(pt 648 176)
+		(output)
+		(text "AWG_clock_0_in_writedata[15..0]" (rect 0 0 165 12)(font "Arial" ))
+		(text "AWG_clock_0_in_writedata[15..0]" (rect 462 171 627 183)(font "Arial" ))
+		(line (pt 648 176)(pt 632 176)(line_width 3))
+	)
+	(port
+		(pt 648 192)
+		(output)
+		(text "cpu_0_data_master_granted_AWG_clock_0_in" (rect 0 0 228 12)(font "Arial" ))
+		(text "cpu_0_data_master_granted_AWG_clock_0_in" (rect 399 187 627 199)(font "Arial" ))
+		(line (pt 648 192)(pt 632 192)(line_width 1))
+	)
+	(port
+		(pt 648 208)
+		(output)
+		(text "cpu_0_data_master_qualified_request_AWG_clock_0_in" (rect 0 0 276 12)(font "Arial" ))
+		(text "cpu_0_data_master_qualified_request_AWG_clock_0_in" (rect 351 203 627 215)(font "Arial" ))
+		(line (pt 648 208)(pt 632 208)(line_width 1))
+	)
+	(port
+		(pt 648 224)
+		(output)
+		(text "cpu_0_data_master_read_data_valid_AWG_clock_0_in" (rect 0 0 270 12)(font "Arial" ))
+		(text "cpu_0_data_master_read_data_valid_AWG_clock_0_in" (rect 357 219 627 231)(font "Arial" ))
+		(line (pt 648 224)(pt 632 224)(line_width 1))
+	)
+	(port
+		(pt 648 240)
+		(output)
+		(text "cpu_0_data_master_requests_AWG_clock_0_in" (rect 0 0 234 12)(font "Arial" ))
+		(text "cpu_0_data_master_requests_AWG_clock_0_in" (rect 393 235 627 247)(font "Arial" ))
+		(line (pt 648 240)(pt 632 240)(line_width 1))
+	)
+	(port
+		(pt 648 256)
+		(output)
+		(text "d1_AWG_clock_0_in_end_xfer" (rect 0 0 151 12)(font "Arial" ))
+		(text "d1_AWG_clock_0_in_end_xfer" (rect 476 251 627 263)(font "Arial" ))
+		(line (pt 648 256)(pt 632 256)(line_width 1))
+	)
+	(drawing
+		(rectangle (rect 16 16 632 272)(line_width 1))
+	)
+)

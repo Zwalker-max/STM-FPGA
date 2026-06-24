@@ -1,0 +1,225 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 16 16 624 336)
+	(text "uart_0_s1_arbitrator" (rect 5 0 102 12)(font "Arial" ))
+	(text "inst" (rect 8 304 25 316)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "clk" (rect 0 0 14 12)(font "Arial" ))
+		(text "clk" (rect 21 27 35 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 1))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "cpu_0_data_master_address_to_slave[24..0]" (rect 0 0 221 12)(font "Arial" ))
+		(text "cpu_0_data_master_address_to_slave[24..0]" (rect 21 43 242 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48)(line_width 3))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "cpu_0_data_master_latency_counter" (rect 0 0 181 12)(font "Arial" ))
+		(text "cpu_0_data_master_latency_counter" (rect 21 59 202 71)(font "Arial" ))
+		(line (pt 0 64)(pt 16 64)(line_width 1))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "cpu_0_data_master_read" (rect 0 0 123 12)(font "Arial" ))
+		(text "cpu_0_data_master_read" (rect 21 75 144 87)(font "Arial" ))
+		(line (pt 0 80)(pt 16 80)(line_width 1))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "cpu_0_data_master_read_data_valid_sdram_0_s1_shift_register" (rect 0 0 317 12)(font "Arial" ))
+		(text "cpu_0_data_master_read_data_valid_sdram_0_s1_shift_register" (rect 21 91 338 103)(font "Arial" ))
+		(line (pt 0 96)(pt 16 96)(line_width 1))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "cpu_0_data_master_write" (rect 0 0 125 12)(font "Arial" ))
+		(text "cpu_0_data_master_write" (rect 21 107 146 119)(font "Arial" ))
+		(line (pt 0 112)(pt 16 112)(line_width 1))
+	)
+	(port
+		(pt 0 128)
+		(input)
+		(text "cpu_0_data_master_writedata[31..0]" (rect 0 0 178 12)(font "Arial" ))
+		(text "cpu_0_data_master_writedata[31..0]" (rect 21 123 199 135)(font "Arial" ))
+		(line (pt 0 128)(pt 16 128)(line_width 3))
+	)
+	(port
+		(pt 0 144)
+		(input)
+		(text "reset_n" (rect 0 0 36 12)(font "Arial" ))
+		(text "reset_n" (rect 21 139 57 151)(font "Arial" ))
+		(line (pt 0 144)(pt 16 144)(line_width 1))
+	)
+	(port
+		(pt 0 160)
+		(input)
+		(text "uart_0_s1_dataavailable" (rect 0 0 119 12)(font "Arial" ))
+		(text "uart_0_s1_dataavailable" (rect 21 155 140 167)(font "Arial" ))
+		(line (pt 0 160)(pt 16 160)(line_width 1))
+	)
+	(port
+		(pt 0 176)
+		(input)
+		(text "uart_0_s1_irq" (rect 0 0 66 12)(font "Arial" ))
+		(text "uart_0_s1_irq" (rect 21 171 87 183)(font "Arial" ))
+		(line (pt 0 176)(pt 16 176)(line_width 1))
+	)
+	(port
+		(pt 0 192)
+		(input)
+		(text "uart_0_s1_readdata[15..0]" (rect 0 0 128 12)(font "Arial" ))
+		(text "uart_0_s1_readdata[15..0]" (rect 21 187 149 199)(font "Arial" ))
+		(line (pt 0 192)(pt 16 192)(line_width 3))
+	)
+	(port
+		(pt 0 208)
+		(input)
+		(text "uart_0_s1_readyfordata" (rect 0 0 118 12)(font "Arial" ))
+		(text "uart_0_s1_readyfordata" (rect 21 203 139 215)(font "Arial" ))
+		(line (pt 0 208)(pt 16 208)(line_width 1))
+	)
+	(port
+		(pt 608 32)
+		(output)
+		(text "cpu_0_data_master_granted_uart_0_s1" (rect 0 0 193 12)(font "Arial" ))
+		(text "cpu_0_data_master_granted_uart_0_s1" (rect 394 27 587 39)(font "Arial" ))
+		(line (pt 608 32)(pt 592 32)(line_width 1))
+	)
+	(port
+		(pt 608 48)
+		(output)
+		(text "cpu_0_data_master_qualified_request_uart_0_s1" (rect 0 0 240 12)(font "Arial" ))
+		(text "cpu_0_data_master_qualified_request_uart_0_s1" (rect 347 43 587 55)(font "Arial" ))
+		(line (pt 608 48)(pt 592 48)(line_width 1))
+	)
+	(port
+		(pt 608 64)
+		(output)
+		(text "cpu_0_data_master_read_data_valid_uart_0_s1" (rect 0 0 234 12)(font "Arial" ))
+		(text "cpu_0_data_master_read_data_valid_uart_0_s1" (rect 353 59 587 71)(font "Arial" ))
+		(line (pt 608 64)(pt 592 64)(line_width 1))
+	)
+	(port
+		(pt 608 80)
+		(output)
+		(text "cpu_0_data_master_requests_uart_0_s1" (rect 0 0 199 12)(font "Arial" ))
+		(text "cpu_0_data_master_requests_uart_0_s1" (rect 388 75 587 87)(font "Arial" ))
+		(line (pt 608 80)(pt 592 80)(line_width 1))
+	)
+	(port
+		(pt 608 96)
+		(output)
+		(text "d1_uart_0_s1_end_xfer" (rect 0 0 115 12)(font "Arial" ))
+		(text "d1_uart_0_s1_end_xfer" (rect 472 91 587 103)(font "Arial" ))
+		(line (pt 608 96)(pt 592 96)(line_width 1))
+	)
+	(port
+		(pt 608 112)
+		(output)
+		(text "uart_0_s1_address[2..0]" (rect 0 0 119 12)(font "Arial" ))
+		(text "uart_0_s1_address[2..0]" (rect 468 107 587 119)(font "Arial" ))
+		(line (pt 608 112)(pt 592 112)(line_width 3))
+	)
+	(port
+		(pt 608 128)
+		(output)
+		(text "uart_0_s1_begintransfer" (rect 0 0 119 12)(font "Arial" ))
+		(text "uart_0_s1_begintransfer" (rect 468 123 587 135)(font "Arial" ))
+		(line (pt 608 128)(pt 592 128)(line_width 1))
+	)
+	(port
+		(pt 608 144)
+		(output)
+		(text "uart_0_s1_chipselect" (rect 0 0 103 12)(font "Arial" ))
+		(text "uart_0_s1_chipselect" (rect 484 139 587 151)(font "Arial" ))
+		(line (pt 608 144)(pt 592 144)(line_width 1))
+	)
+	(port
+		(pt 608 160)
+		(output)
+		(text "uart_0_s1_dataavailable_from_sa" (rect 0 0 166 12)(font "Arial" ))
+		(text "uart_0_s1_dataavailable_from_sa" (rect 421 155 587 167)(font "Arial" ))
+		(line (pt 608 160)(pt 592 160)(line_width 1))
+	)
+	(port
+		(pt 608 176)
+		(output)
+		(text "uart_0_s1_irq_from_sa" (rect 0 0 113 12)(font "Arial" ))
+		(text "uart_0_s1_irq_from_sa" (rect 474 171 587 183)(font "Arial" ))
+		(line (pt 608 176)(pt 592 176)(line_width 1))
+	)
+	(port
+		(pt 608 192)
+		(output)
+		(text "uart_0_s1_read_n" (rect 0 0 87 12)(font "Arial" ))
+		(text "uart_0_s1_read_n" (rect 500 187 587 199)(font "Arial" ))
+		(line (pt 608 192)(pt 592 192)(line_width 1))
+	)
+	(port
+		(pt 608 208)
+		(output)
+		(text "uart_0_s1_readdata_from_sa[15..0]" (rect 0 0 175 12)(font "Arial" ))
+		(text "uart_0_s1_readdata_from_sa[15..0]" (rect 412 203 587 215)(font "Arial" ))
+		(line (pt 608 208)(pt 592 208)(line_width 3))
+	)
+	(port
+		(pt 608 224)
+		(output)
+		(text "uart_0_s1_readyfordata_from_sa" (rect 0 0 165 12)(font "Arial" ))
+		(text "uart_0_s1_readyfordata_from_sa" (rect 422 219 587 231)(font "Arial" ))
+		(line (pt 608 224)(pt 592 224)(line_width 1))
+	)
+	(port
+		(pt 608 240)
+		(output)
+		(text "uart_0_s1_reset_n" (rect 0 0 90 12)(font "Arial" ))
+		(text "uart_0_s1_reset_n" (rect 497 235 587 247)(font "Arial" ))
+		(line (pt 608 240)(pt 592 240)(line_width 1))
+	)
+	(port
+		(pt 608 256)
+		(output)
+		(text "uart_0_s1_write_n" (rect 0 0 88 12)(font "Arial" ))
+		(text "uart_0_s1_write_n" (rect 499 251 587 263)(font "Arial" ))
+		(line (pt 608 256)(pt 592 256)(line_width 1))
+	)
+	(port
+		(pt 608 272)
+		(output)
+		(text "uart_0_s1_writedata[15..0]" (rect 0 0 129 12)(font "Arial" ))
+		(text "uart_0_s1_writedata[15..0]" (rect 458 267 587 279)(font "Arial" ))
+		(line (pt 608 272)(pt 592 272)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 592 304)(line_width 1))
+	)
+)

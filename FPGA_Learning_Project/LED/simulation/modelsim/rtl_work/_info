@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/File/CubeMX/STM-FPGA/FPGA_Learning_Project/simulation/modelsim
+vLED
+!s110 1782296094
+!i10b 1
+!s100 F1S@h1CjHK>WL3hZCCaz]2
+ILnG>:zcdfYIcGg`c[Zkec0
+Z1 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+w1782295861
+8D:/File/CubeMX/STM-FPGA/FPGA_Learning_Project/LED.v
+FD:/File/CubeMX/STM-FPGA/FPGA_Learning_Project/LED.v
+L0 1
+Z2 OV;L;10.3c;59
+r1
+!s85 0
+31
+!s108 1782296094.939000
+!s107 D:/File/CubeMX/STM-FPGA/FPGA_Learning_Project/LED.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/File/CubeMX/STM-FPGA/FPGA_Learning_Project|D:/File/CubeMX/STM-FPGA/FPGA_Learning_Project/LED.v|
+!i113 1
+Z3 o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+D:/File/CubeMX/STM-FPGA/FPGA_Learning_Project
+n@l@e@d
+vtb_LED
+!s110 1782296095
+!i10b 1
+!s100 NK[=dhi9@OMmVd^=LJ3WR1
+IiH>_@XKoibmJ30_mjeih73
+R1
+R0
+w1782294229
+8D:/File/CubeMX/STM-FPGA/FPGA_Learning_Project/output_files/tb_LED.v
+FD:/File/CubeMX/STM-FPGA/FPGA_Learning_Project/output_files/tb_LED.v
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1782296095.004000
+!s107 D:/File/CubeMX/STM-FPGA/FPGA_Learning_Project/output_files/tb_LED.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/File/CubeMX/STM-FPGA/FPGA_Learning_Project/output_files|D:/File/CubeMX/STM-FPGA/FPGA_Learning_Project/output_files/tb_LED.v|
+!i113 1
+R3
+!s92 -vlog01compat -work work +incdir+D:/File/CubeMX/STM-FPGA/FPGA_Learning_Project/output_files
+ntb_@l@e@d

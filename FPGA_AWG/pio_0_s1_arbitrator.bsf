@@ -1,0 +1,162 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 16 16 512 240)
+	(text "pio_0_s1_arbitrator" (rect 5 0 98 12)(font "Arial" ))
+	(text "inst" (rect 8 208 25 220)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "AWG_clock_0_out_address_to_slave[2..0]" (rect 0 0 210 12)(font "Arial" ))
+		(text "AWG_clock_0_out_address_to_slave[2..0]" (rect 21 27 231 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "AWG_clock_0_out_nativeaddress[1..0]" (rect 0 0 192 12)(font "Arial" ))
+		(text "AWG_clock_0_out_nativeaddress[1..0]" (rect 21 43 213 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48)(line_width 3))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "AWG_clock_0_out_read" (rect 0 0 118 12)(font "Arial" ))
+		(text "AWG_clock_0_out_read" (rect 21 59 139 71)(font "Arial" ))
+		(line (pt 0 64)(pt 16 64)(line_width 1))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "AWG_clock_0_out_write" (rect 0 0 119 12)(font "Arial" ))
+		(text "AWG_clock_0_out_write" (rect 21 75 140 87)(font "Arial" ))
+		(line (pt 0 80)(pt 16 80)(line_width 1))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "AWG_clock_0_out_writedata[15..0]" (rect 0 0 172 12)(font "Arial" ))
+		(text "AWG_clock_0_out_writedata[15..0]" (rect 21 91 193 103)(font "Arial" ))
+		(line (pt 0 96)(pt 16 96)(line_width 3))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "clk" (rect 0 0 14 12)(font "Arial" ))
+		(text "clk" (rect 21 107 35 119)(font "Arial" ))
+		(line (pt 0 112)(pt 16 112)(line_width 1))
+	)
+	(port
+		(pt 0 128)
+		(input)
+		(text "pio_0_s1_readdata[11..0]" (rect 0 0 123 12)(font "Arial" ))
+		(text "pio_0_s1_readdata[11..0]" (rect 21 123 144 135)(font "Arial" ))
+		(line (pt 0 128)(pt 16 128)(line_width 3))
+	)
+	(port
+		(pt 0 144)
+		(input)
+		(text "reset_n" (rect 0 0 36 12)(font "Arial" ))
+		(text "reset_n" (rect 21 139 57 151)(font "Arial" ))
+		(line (pt 0 144)(pt 16 144)(line_width 1))
+	)
+	(port
+		(pt 496 32)
+		(output)
+		(text "AWG_clock_0_out_granted_pio_0_s1" (rect 0 0 182 12)(font "Arial" ))
+		(text "AWG_clock_0_out_granted_pio_0_s1" (rect 293 27 475 39)(font "Arial" ))
+		(line (pt 496 32)(pt 480 32)(line_width 1))
+	)
+	(port
+		(pt 496 48)
+		(output)
+		(text "AWG_clock_0_out_qualified_request_pio_0_s1" (rect 0 0 230 12)(font "Arial" ))
+		(text "AWG_clock_0_out_qualified_request_pio_0_s1" (rect 245 43 475 55)(font "Arial" ))
+		(line (pt 496 48)(pt 480 48)(line_width 1))
+	)
+	(port
+		(pt 496 64)
+		(output)
+		(text "AWG_clock_0_out_read_data_valid_pio_0_s1" (rect 0 0 224 12)(font "Arial" ))
+		(text "AWG_clock_0_out_read_data_valid_pio_0_s1" (rect 251 59 475 71)(font "Arial" ))
+		(line (pt 496 64)(pt 480 64)(line_width 1))
+	)
+	(port
+		(pt 496 80)
+		(output)
+		(text "AWG_clock_0_out_requests_pio_0_s1" (rect 0 0 188 12)(font "Arial" ))
+		(text "AWG_clock_0_out_requests_pio_0_s1" (rect 287 75 475 87)(font "Arial" ))
+		(line (pt 496 80)(pt 480 80)(line_width 1))
+	)
+	(port
+		(pt 496 96)
+		(output)
+		(text "d1_pio_0_s1_end_xfer" (rect 0 0 110 12)(font "Arial" ))
+		(text "d1_pio_0_s1_end_xfer" (rect 365 91 475 103)(font "Arial" ))
+		(line (pt 496 96)(pt 480 96)(line_width 1))
+	)
+	(port
+		(pt 496 112)
+		(output)
+		(text "pio_0_s1_address[1..0]" (rect 0 0 114 12)(font "Arial" ))
+		(text "pio_0_s1_address[1..0]" (rect 361 107 475 119)(font "Arial" ))
+		(line (pt 496 112)(pt 480 112)(line_width 3))
+	)
+	(port
+		(pt 496 128)
+		(output)
+		(text "pio_0_s1_chipselect" (rect 0 0 99 12)(font "Arial" ))
+		(text "pio_0_s1_chipselect" (rect 376 123 475 135)(font "Arial" ))
+		(line (pt 496 128)(pt 480 128)(line_width 1))
+	)
+	(port
+		(pt 496 144)
+		(output)
+		(text "pio_0_s1_readdata_from_sa[11..0]" (rect 0 0 171 12)(font "Arial" ))
+		(text "pio_0_s1_readdata_from_sa[11..0]" (rect 304 139 475 151)(font "Arial" ))
+		(line (pt 496 144)(pt 480 144)(line_width 3))
+	)
+	(port
+		(pt 496 160)
+		(output)
+		(text "pio_0_s1_reset_n" (rect 0 0 86 12)(font "Arial" ))
+		(text "pio_0_s1_reset_n" (rect 389 155 475 167)(font "Arial" ))
+		(line (pt 496 160)(pt 480 160)(line_width 1))
+	)
+	(port
+		(pt 496 176)
+		(output)
+		(text "pio_0_s1_write_n" (rect 0 0 83 12)(font "Arial" ))
+		(text "pio_0_s1_write_n" (rect 392 171 475 183)(font "Arial" ))
+		(line (pt 496 176)(pt 480 176)(line_width 1))
+	)
+	(port
+		(pt 496 192)
+		(output)
+		(text "pio_0_s1_writedata[11..0]" (rect 0 0 125 12)(font "Arial" ))
+		(text "pio_0_s1_writedata[11..0]" (rect 350 187 475 199)(font "Arial" ))
+		(line (pt 496 192)(pt 480 192)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 480 208)(line_width 1))
+	)
+)

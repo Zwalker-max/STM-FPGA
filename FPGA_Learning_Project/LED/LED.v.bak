@@ -1,0 +1,47 @@
+// ============================================================
+// 模块：led_blink
+// 功能：产生一个周期性的 LED 闪烁信号（50% 占空比）
+// 参数：
+//   CLK_FREQ    : 输入时钟频率 (Hz)，默认 50_000_000 (50 MHz)
+//   BLINK_FREQ  : LED 闪烁频率 (Hz)，默认 1 (1 Hz，即亮 0.5s 灭 0.5s)
+// 输入：
+//   clk         : 系统时钟
+//   rst_n       : 异步复位，低有效
+// 输出：
+//   led         : LED 驱动信号（高电平点亮）
+// ============================================================
+module led_blink #(
+    parameter CLK_FREQ   = 50_000_000,   // 时钟频率 50 MHz
+    parameter BLINK_FREQ = 1             // 闪烁频率 1 Hz
+)(
+    input  wire clk,
+    input  wire rst_n,
+    output reg  led
+);
+
+    // 计算计数最大值：每半个闪烁周期翻转一次
+    // 计数周期 = CLK_FREQ / (2 * BLINK_FREQ)
+    localparam CNT_MAX = CLK_FREQ / (2 * BLINK_FREQ);
+
+    // 计数器位宽（根据 CNT_MAX 计算）
+    localparam CNT_WIDTH = $clog2(CNT_MAX + 1);
+
+    reg [CNT_WIDTH-1:0] cnt;
+
+    // 计数器与 LED 翻转逻辑
+    always @(posedge clk or negedge rst_n) begin
+        if (!rst_n) begin
+            cnt <= 0;
+            led <= 1'b0;        // 复位时 LED 熄灭
+        end else begin
+            if (cnt == CNT_MAX - 1) begin
+                cnt <= 0;
+                led <= ~led;    // 计数到最大值时翻转 LED
+            end else begin
+                cnt <= cnt + 1'b1;
+                // led 保持当前状态
+            end
+        end
+    end
+
+endmodule
