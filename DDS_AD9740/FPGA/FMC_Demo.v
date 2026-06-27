@@ -1,0 +1,164 @@
+/*********************************************************
+* 模块：FMC_Demo (顶层)
+* 功能：DDS 任意波形发生器顶层
+* 描述：例化 PLL、FMC从机、DDS累加器、波形RAM、DAC控制
+*
+* FPGA：EP4CE10E22C8N
+* 时钟：外部50MHz → PLL → 125MHz (c0=逻辑, c1=DAC_CLK)
+* DAC：AD9740 10-bit 125MSPS
+*
+* 模块连接架构：
+*   PLL(c0) → clk → 所有模块
+*   PLL(c1) → DAC_CLK (须在MegaWizard中设+90°移相)
+*
+*   STM32 ←→ FMC总线 ←→ stm32_fmc_16bit
+*                            │
+*              ┌─────────────┼─────────────┐
+*              │             │             │
+*         ftw_active    wf_* 控制        dac_ctrl
+*              │             │             │
+*         dds_core      ram_2port1    dac_control
+*              │         (1024×16)        │
+*         rd_addr ──→ rdaddress         dac_data[9:0]
+*                        │                 │
+*                      q[9:0] ──→ wf_data │
+*                                        │
+*                                   DAC_D[9:0] → AD9740
+**********************************************************/
+
+module FMC_Demo (
+    //====== 时钟输入 ======
+    input  wire          CLK_50M,       //外部50MHz晶振 → PLL
+
+    //====== FMC 总线接口 ======
+    input  wire          FMC_NE1,       //片选 低有效
+    input  wire          FMC_NOE,       //读使能 低有效
+    input  wire          FMC_NWE,       //写使能 低有效
+    input  wire [14:0]   FMC_A,         //15bit 地址总线
+    inout  wire [15:0]   FMC_D/* synthesis keep */,         //16bit 数据总线
+
+    //====== DAC 输出 ======
+    output wire [9:0]    DAC_D/* synthesis keep */,         //AD9740 10-bit数据
+    output wire          DAC_CLK        //AD9740 时钟 (125MHz, 建议+90°移相)
+);
+
+//===========================================================
+// 内部线网定义
+//===========================================================
+
+// PLL输出时钟
+wire clk_125m;      // c0: 125MHz 0° (内部逻辑)
+wire clk_125m_90;   // c1: 125MHz +90° (DAC_CLK)
+wire clk_spare;     // c2: 备用
+
+// 复位（内部固定为高，原BDF中接VCC）
+wire rst_n;
+assign rst_n = 1'b1;
+
+// --- stm32_fmc_16bit → 外部 ---
+wire         fmc_wf_wren;
+wire  [9:0]  fmc_wf_wraddr;
+wire [15:0]  fmc_wf_wrdata;
+wire [31:0]  /* synthesis keep */ fmc_ftw_active;   // 防综合器优化常量传播
+wire         fmc_phase_rst;
+wire         /* synthesis keep */ fmc_dac_ctrl;      // 防综合器优化常量传播
+
+// --- ram_2port1 → stm32_fmc_16bit 回读 ---
+wire [15:0]  ram_q;
+
+// --- dds_core → ram_2port1 ---
+wire  [9:0]  dds_rd_addr;
+
+// --- ram_2port1 → dac_control ---
+wire  [9:0]  wf_to_dac;
+
+//===========================================================
+// 1. PLL 例化 (50MHz → 125MHz × 3)
+//===========================================================
+pll1 u_pll1 (
+    .inclk0 (CLK_50M),
+    .c0     (clk_125m),       // 125MHz 0° — 内部逻辑时钟
+    .c1     (clk_125m_90),    // 125MHz +90° — DAC_CLK (需MegaWizard重配)
+    .c2     (clk_spare)       // 备用
+);
+
+//===========================================================
+// 2. FMC 从机接口 + 地址译码 + DDS控制寄存器
+//===========================================================
+stm32_fmc_16bit u_fmc (
+    // FMC 硬件接口
+    .FMC_NE1       (FMC_NE1),
+    .FMC_NOE       (FMC_NOE),
+    .FMC_NWE       (FMC_NWE),
+    .FMC_A         (FMC_A),
+    .FMC_D         (FMC_D),
+
+    // 时钟和复位
+    .clk_125m      (clk_125m),
+    .rst_n         (rst_n),
+
+    // 波形RAM接口 (→ ram_2port1)
+    .wf_wren       (fmc_wf_wren),
+    .wf_wraddr     (fmc_wf_wraddr),
+    .wf_wrdata     (fmc_wf_wrdata),
+    .wf_rddata     (ram_q),           // 从 ram_2port1 回读
+
+    // DDS控制输出
+    .ftw_active    (fmc_ftw_active),  // → dds_core
+    .phase_rst     (fmc_phase_rst),   // → dds_core
+    .dac_ctrl      (fmc_dac_ctrl)     // → dac_control
+);
+
+//===========================================================
+// 3. DDS 相位累加器 (32-bit)
+//===========================================================
+dds_core u_dds (
+    .clk        (clk_125m),
+    .rst_n      (rst_n),
+    .ftw        (fmc_ftw_active),
+    .phase_rst  (fmc_phase_rst),
+    .rd_addr    (dds_rd_addr)         // → ram_2port1 rdaddress
+);
+
+//===========================================================
+// 4. 波形 RAM (1024×16, 双端口, M9K, VHDL IP核)
+//    Port A (写): FMC写入波形数据
+//    Port B (读): DDS累加器驱动读地址
+//===========================================================
+ram_2port1 u_ram (
+    .clock      (clk_125m),
+    .data       (fmc_wf_wrdata),      // ← FMC 写数据
+    .wraddress  (fmc_wf_wraddr),      // ← FMC 写地址
+    .wren       (fmc_wf_wren),        // ← FMC 写使能
+    .rdaddress  (dds_rd_addr),        // ← DDS 读地址
+    .q          (ram_q)               // → 输出 (16-bit, 低10位为波形数据)
+);
+
+// ram_q[9:0] → dac_control
+assign wf_to_dac = ram_q[9:0];
+
+//===========================================================
+// 5. DAC 输出控制
+//===========================================================
+dac_control u_dac (
+    .clk        (clk_125m),
+    .rst_n      (rst_n),
+    .wf_data    (wf_to_dac),          // ← ram_2port1 q[9:0]
+    .dac_enable (fmc_dac_ctrl),       // ← stm32_fmc_16bit dac_ctrl
+    .dac_data   (DAC_D)               // → AD9740 数据引脚
+);
+
+//===========================================================
+// 6. DAC 时钟输出 (PLL c1, 125MHz, 建议+90°移相)
+//
+// AD9740 时序要求 (125MHz, 8ns周期):
+//   t_SU = 2.0ns (建立时间)
+//   t_HD = 1.5ns (保持时间)
+// 若数据在c0沿更新，DAC_CLK用c1(+90°=2000ps)使其沿位于数据眼图中央
+//
+// PLL 配置方法: Quartus → Tools → MegaWizard → 编辑 pll1
+//   将 c1 phase_shift 从 0 改为 2000 (ps) 或 90 (deg)
+//===========================================================
+assign DAC_CLK = clk_125m_90;
+
+endmodule

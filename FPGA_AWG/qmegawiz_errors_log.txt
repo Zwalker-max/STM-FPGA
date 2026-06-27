@@ -14,3 +14,51 @@ D:/File/CubeMX/STM-FPGA/FPGA_AWG/awg.v
 
 Jun 24 02PM:34:35>: Megafunction Altera SOPC Builder is not listed in any 
 wizard.lst file in the specified library path(s).Wizard launch aborted
+
+D:/File/CubeMX/STM-FPGA/FPGA_AWG/lpm_ram_dp0.v
+
+Jun 24 09PM:33:29>: Megafunction LPM_RAM_DP is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+D:/File/CubeMX/STM-FPGA/FPGA_AWG/AWG.v
+
+Jun 24 09PM:34:56>: Megafunction Altera SOPC Builder is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+D:/File/CubeMX/STM-FPGA/FPGA_AWG/AWG.v
+
+Jun 24 09PM:34:58>: Megafunction Altera SOPC Builder is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+D:/File/CubeMX/STM-FPGA/FPGA_AWG/lpm_ram_dp0.v
+
+Jun 24 09PM:35:39>: Megafunction LPM_RAM_DP is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+D:/File/CubeMX/STM-FPGA/FPGA_AWG/AWG.v
+
+Jun 24 09PM:41:21>: Megafunction Altera SOPC Builder is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+D:/File/CubeMX/STM-FPGA/FPGA_AWG/lpm_ram_dp0.v
+
+Jun 24 09PM:55:11>: Megafunction LPM_RAM_DP is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+D:/File/CubeMX/STM-FPGA/FPGA_AWG/altpll0.v
+
+Jun 25 12AM:39:09>: Error in CNX file format.
+
+Error messages are listed in file
+D:/File/CubeMX/STM-FPGA/FPGA_AWG/altpll0.cnxerr.
+
+Can't create the custom megafunction variation file(s)
+
+D:/File/CubeMX/STM-FPGA/FPGA_AWG/altpll0.v
+
+Jun 25 12AM:41:33>: Error in CNX file format.
+
+Error messages are listed in file
+D:/File/CubeMX/STM-FPGA/FPGA_AWG/altpll0.cnxerr.
+
+Can't create the custom megafunction variation file(s)

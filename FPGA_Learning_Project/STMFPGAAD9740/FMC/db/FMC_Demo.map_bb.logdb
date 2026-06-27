@@ -1,0 +1,2 @@
+v1
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,dac_controller:u_dac|lpm_mult:Mult0|mult_4dt:auto_generated|mac_out2,

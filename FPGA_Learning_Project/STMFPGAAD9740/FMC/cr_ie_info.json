@@ -1,0 +1,22 @@
+{
+	"system" : {
+		"platform" : "windows64",
+		"os_name" : "Windows 7",
+		"os_version" : "6.2"
+	},
+	"error" : {
+		"executable" : "quartus_fit",
+		"comment" : "not_applicable",
+		"error_message" : "Internal Error",
+		"source_file" : "/quartus/fitter/vpr20k/altera_arch_common/altera_arch_net_rr_terminals.c",
+		"line" : "4860",
+		"stack_trace" : "\t0x7ff8ce35ff70: fitter_vpr20kmain + 0x48ff70 (?unload@VPR_QI_FACADE@@UEAAXXZ + 0x110)\n\t0x7ff8cdfa1c57: fitter_vpr20kmain + 0xd1c57 (??4BSYN_LABMGR_INTERFACE@@QEAAAEAV0@AEBV0@@Z + 0xc9e77)\n\t0x7ff8cdfa1ca0: fitter_vpr20kmain + 0xd1ca0 (??4BSYN_LABMGR_INTERFACE@@QEAAAEAV0@AEBV0@@Z + 0xc9ec0)\n\t0x7ff8ce157b2a: fitter_vpr20kmain + 0x287b2a (??4BSYN_LABMGR_INTERFACE@@QEAAAEAV0@AEBV0@@Z + 0x27fd4a)\n\t0x7ff8ce29476a: fitter_vpr20kmain + 0x3c476a (??4BSYN_LABMGR_INTERFACE@@QEAAAEAV0@AEBV0@@Z + 0x3bc98a)\n\t0x7ff8ce285d85: fitter_vpr20kmain + 0x3b5d85 (??4BSYN_LABMGR_INTERFACE@@QEAAAEAV0@AEBV0@@Z + 0x3adfa5)\n\t0x7ff8ce0fcf0d: fitter_vpr20kmain + 0x22cf0d (??4BSYN_LABMGR_INTERFACE@@QEAAAEAV0@AEBV0@@Z + 0x22512d)\n\t0x7ff8ce0fc9f3: fitter_vpr20kmain + 0x22c9f3 (??4BSYN_LABMGR_INTERFACE@@QEAAAEAV0@AEBV0@@Z + 0x224c13)\n\t0x7ff8ce0fc7ca: fitter_vpr20kmain + 0x22c7ca (??4BSYN_LABMGR_INTERFACE@@QEAAAEAV0@AEBV0@@Z + 0x2249ea)\n\t0x7ff8ce0f9367: fitter_vpr20kmain + 0x229367 (??4BSYN_LABMGR_INTERFACE@@QEAAAEAV0@AEBV0@@Z + 0x221587)\n\t0x7ff8ce35f96c: fitter_vpr20kmain + 0x48f96c (?vpr_qi_main@VPR_QI_FACADE@@UEAA_NXZ + 0x3c)\n\t0x7ff900755740: fitter_fitapi + 0x35740 (fitapi_run_vpr + 0x70)\n\t0x7ff906193878: FITTER_FITCC + 0x53878 (?run_vpr@FITCC_EXPERT@@QEBA_NXZ + 0x138)\n\t0x7ff9061932f5: FITTER_FITCC + 0x532f5 (?place_and_route@FITCC_EXPERT@@QEBA_NXZ + 0xf5)\n\t0x7ff906192790: FITTER_FITCC + 0x52790 (?invoke_fitter@FITCC_EXPERT@@QEBA_NXZ + 0x6f0)\n\t0x7ff9010a98d7: fitter_fcuda + 0x98d7 (fcuda_execute + 0x1f7)\n\t0x7ff9060ce142: FITTER_FMAIN + 0xe142 (?fmain_start@@YA_NPEAVCMP_FACADE@@@Z + 0x8e2)\n\t0x7ff9017e435a: comp_qfit_legacy_flow + 0x435a\n\t0x7ff9017e575e: comp_qfit_legacy_flow + 0x575e\n\t0x7ff9017e24e1: comp_qfit_legacy_flow + 0x24e1\n\t 0x64064410: tcl86 + 0x14410 (TclInvokeStringCommand + 0xf0)\n\t 0x640661e2: tcl86 + 0x161e2 (TclNRRunCallbacks + 0x62)\n\t 0x64067a65: tcl86 + 0x17a65 (TclEvalEx + 0xa65)\n\t 0x640f6f8b: tcl86 + 0xa6f8b (Tcl_FSEvalFileEx + 0x22b)\n\t 0x640f5646: tcl86 + 0xa5646 (Tcl_EvalFile + 0x36)\n\t0x7ff96aee3962: comp_qexe + 0x13962 (?qexe_evaluate_tcl_command@@YA_NPEBD@Z + 0x582)\n\t0x7ff96aee2adc: comp_qexe + 0x12adc (?qexe_apply_ini_vars@@YAXXZ + 0x29ec)\n\t0x7ff96aee7c05: comp_qexe + 0x17c05 (?qexe_run_tcl_option@@YA_NPEAVQEXE_FRAMEWORK@@PEBDPEAV?$list@V?$basic_string@DU?$char_traits@D@std@@V?$MEM_STL_ALLOCATOR@D@@@std@@V?$MEM_STL_ALLOCATOR@V?$basic_string@DU?$char_traits@D@std@@V?$MEM_STL_ALLOCATOR@D@@@std@@@@@std@@_N@Z + 0x575)\n\t0x7ff90e964b13: comp_qcu + 0x34b13 (?qcu_run_tcl_option@@YA_NPEAVQCU_FRAMEWORK@@PEBDPEAV?$list@V?$basic_string@DU?$char_traits@D@std@@V?$MEM_STL_ALLOCATOR@D@@@std@@V?$MEM_STL_ALLOCATOR@V?$basic_string@DU?$char_traits@D@std@@V?$MEM_STL_ALLOCATOR@D@@@std@@@@@std@@_N@Z + 0xb63)\n\t0x7ff96aee755a: comp_qexe + 0x1755a (?qexe_process_cmdline_arguments@@YA_NPEAVQEXE_CMDLINE@@HPEAPEBD@Z + 0x246a)\n\t0x7ff96aee8381: comp_qexe + 0x18381 (?qexe_standard_main@@YAHPEAVQEXE_FRAMEWORK@@PEAPEBUQEXE_OPTION_DEFINITION@@HPEAPEBD@Z + 0xc1)\n\t0x7ff614922583: quartus_fit + 0x2583\n\t0x7ff95e6dcad8: CCL_MSG + 0xcad8 (?msg_initialize_out_of_memory_handler@@YAXXZ + 0x378)\n\t0x7ff95e6de20c: CCL_MSG + 0xe20c (?msg_set_stack_size@@YAXH@Z + 0x7c)\n\t0x7ff95e7e5aa0: ccl_mem + 0x5aa0 (?mem_gen_get_project_output_directory@@YAPEBDXZ + 0x64)\n\t0x7ff95e6dc721: CCL_MSG + 0xc721 (?msg_exe_main@@YAHHPEAPEBDP6AHH0@Z@Z + 0xa1)\n\t0x7ff614922bbe: quartus_fit + 0x2bbe\n\t0x7ff9741e7373: KERNEL32 + 0x17373 (BaseThreadInitThunk + 0x13)\n\t0x7ff97485cc90: ntdll + 0x4cc90 (RtlUserThreadStart + 0x20)\n",
+		"subsystem" : "VPR20KMAIN"
+	},
+	"quartus" : {
+		"quartus_bits" : "64",
+		"version" : "14.1.0",
+		"build" : "186",
+		"edition" : "Full Version"
+	}
+}

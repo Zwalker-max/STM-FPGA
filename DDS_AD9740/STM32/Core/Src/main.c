@@ -18,10 +18,15 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "usart.h"
+#include "gpio.h"
+#include "fmc.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "dds.h"
+#include <stdio.h>
+#include <string.h>
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -31,10 +36,6 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
-
-#define FPGA_BASE_ADDR  0x60000000
-#define FPGA           ((volatile uint16_t *)FPGA_BASE_ADDR)
-
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -44,8 +45,6 @@
 
 /* Private variables ---------------------------------------------------------*/
 
-SRAM_HandleTypeDef hsram1;
-
 /* USER CODE BEGIN PV */
 
 /* USER CODE END PV */
@@ -53,10 +52,7 @@ SRAM_HandleTypeDef hsram1;
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
 static void MPU_Config(void);
-static void MX_GPIO_Init(void);
-static void MX_FMC_Init(void);
 /* USER CODE BEGIN PFP */
-
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
@@ -105,35 +101,77 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   MX_FMC_Init();
+  MX_USART1_UART_Init();
   /* USER CODE BEGIN 2 */
-	
-	uint16_t w_data = 0;
-	uint16_t r_data;
-	uint16_t reg_addr = 0;
-	
+
+  /* Startup banner (TX only, no interrupt needed) */
+  const char *banner =
+      "\r\n\r\n"
+      "========================================\r\n"
+      "  DDS_AD9740  Arbitrary Waveform Gen\r\n"
+      "  UART TX: 115200 8N1  (output only)\r\n"
+      "========================================\r\n";
+  HAL_UART_Transmit(&huart1, (uint8_t *)banner, strlen(banner), 500);
+
+  /*
+   * DDS initialization: generates 1024-point sine LUT,
+   * writes to FPGA waveform RAM, sets 1 kHz default, enables DAC.
+   */
+  HAL_UART_Transmit(&huart1, (uint8_t *)"Init DDS...\r\n", 13, 200);
+  DDS_Init();
+  HAL_UART_Transmit(&huart1, (uint8_t *)"DDS ready.  Output: 1 kHz sine.\r\n", 37, 200);
+
+  /*
+   * Register dump: read back FPGA control registers and sample waveform RAM
+   * to verify FMC communication and DDS configuration.
+   */
+  {
+    char buf[80];
+    uint16_t val;
+    int i;
+
+    /* --- Control Registers --- */
+    HAL_UART_Transmit(&huart1, (uint8_t *)"\r\n--- Control Registers ---\r\n", 27, 200);
+
+    val = FPGA[FTW_ADDR_LO];
+    sprintf(buf, "FTW_LO    (0x0400) = 0x%04X (%u)\r\n", val, val);
+    HAL_UART_Transmit(&huart1, (uint8_t *)buf, strlen(buf), 100);
+
+    val = FPGA[FTW_ADDR_HI];
+    sprintf(buf, "FTW_HI    (0x0401) = 0x%04X (%u)\r\n", val, val);
+    HAL_UART_Transmit(&huart1, (uint8_t *)buf, strlen(buf), 100);
+
+    val = FPGA[DAC_CTRL_ADDR];
+    sprintf(buf, "DAC_CTRL  (0x040C) = 0x%04X (%s)\r\n", val,
+            (val & 0x01) ? "ENABLED" : "DISABLED");
+    HAL_UART_Transmit(&huart1, (uint8_t *)buf, strlen(buf), 100);
+
+    /* --- Waveform RAM (first 16 of 1024) --- */
+    HAL_UART_Transmit(&huart1, (uint8_t *)"\r\n--- Waveform RAM [0..15] / 1024 ---\r\n", 44, 200);
+
+    for (i = 0; i <1024 ; i = i + 5)
+    {
+      val = FPGA[WAVEFORM_RAM_BASE + i];
+      sprintf(buf, "  RAM : %4u\r\n",  val & 0x03FF);
+      HAL_UART_Transmit(&huart1, (uint8_t *)buf, strlen(buf), 100);
+			HAL_Delay(1);
+    }
+
+    HAL_UART_Transmit(&huart1, (uint8_t *)"--- End of Register Dump ---\r\n\r\n", 31, 200);
+  }
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-		FPGA[reg_addr] = w_data;		//Ð´ FPGA¼Ä´æÆ÷
-		r_data = FPGA[reg_addr];		//»Ø¶Á
-		if(r_data == w_data)				//¶ÁÐ´ÄÚÈÝÆ¥Åä
-		{
-			if(reg_addr < 20000)			//Ã»ÓÐ²âÍêËùÓÐ¼Ä´æÆ÷
-			{
-				w_data++; 
-				reg_addr++;							//¼ÌÐø²âÊÔÏÂÒ»¸öµØÖ·µÄ¼Ä´æÆ÷
-			}
-			else                                       //Ñ­»·²âÊÔ
-			{
-				w_data = 0;
-				reg_addr = 0;
-			}
-		}
-		
-		HAL_Delay(10);
+    /*
+     * DDS runs autonomously on FPGA.  STM32 just idles.
+     * USART TX is available for debug output via HAL_UART_Transmit().
+     * USART RX interrupt is disabled (no HAL_UART_Receive_IT).
+     */
+    HAL_Delay(1000);
 
 
     /* USER CODE END WHILE */
@@ -202,84 +240,6 @@ void SystemClock_Config(void)
   }
 }
 
-/* FMC initialization function */
-static void MX_FMC_Init(void)
-{
-
-  /* USER CODE BEGIN FMC_Init 0 */
-
-  /* USER CODE END FMC_Init 0 */
-
-  FMC_NORSRAM_TimingTypeDef Timing = {0};
-
-  /* USER CODE BEGIN FMC_Init 1 */
-
-  /* USER CODE END FMC_Init 1 */
-
-  /** Perform the SRAM1 memory initialization sequence
-  */
-  hsram1.Instance = FMC_NORSRAM_DEVICE;
-  hsram1.Extended = FMC_NORSRAM_EXTENDED_DEVICE;
-  /* hsram1.Init */
-  hsram1.Init.NSBank = FMC_NORSRAM_BANK1;
-  hsram1.Init.DataAddressMux = FMC_DATA_ADDRESS_MUX_DISABLE;
-  hsram1.Init.MemoryType = FMC_MEMORY_TYPE_SRAM;
-  hsram1.Init.MemoryDataWidth = FMC_NORSRAM_MEM_BUS_WIDTH_16;
-  hsram1.Init.BurstAccessMode = FMC_BURST_ACCESS_MODE_DISABLE;
-  hsram1.Init.WaitSignalPolarity = FMC_WAIT_SIGNAL_POLARITY_LOW;
-  hsram1.Init.WaitSignalActive = FMC_WAIT_TIMING_BEFORE_WS;
-  hsram1.Init.WriteOperation = FMC_WRITE_OPERATION_ENABLE;
-  hsram1.Init.WaitSignal = FMC_WAIT_SIGNAL_DISABLE;
-  hsram1.Init.ExtendedMode = FMC_EXTENDED_MODE_DISABLE;
-  hsram1.Init.AsynchronousWait = FMC_ASYNCHRONOUS_WAIT_DISABLE;
-  hsram1.Init.WriteBurst = FMC_WRITE_BURST_DISABLE;
-  hsram1.Init.ContinuousClock = FMC_CONTINUOUS_CLOCK_SYNC_ONLY;
-  hsram1.Init.WriteFifo = FMC_WRITE_FIFO_DISABLE;
-  hsram1.Init.PageSize = FMC_PAGE_SIZE_NONE;
-  /* Timing */
-  Timing.AddressSetupTime = 4;
-  Timing.AddressHoldTime = 15;
-  Timing.DataSetupTime = 3;
-  Timing.BusTurnAroundDuration = 2;
-  Timing.CLKDivision = 16;
-  Timing.DataLatency = 17;
-  Timing.AccessMode = FMC_ACCESS_MODE_A;
-  /* ExtTiming */
-
-  if (HAL_SRAM_Init(&hsram1, &Timing, NULL) != HAL_OK)
-  {
-    Error_Handler( );
-  }
-
-  /* USER CODE BEGIN FMC_Init 2 */
-
-  /* USER CODE END FMC_Init 2 */
-}
-
-/**
-  * @brief GPIO Initialization Function
-  * @param None
-  * @retval None
-  */
-static void MX_GPIO_Init(void)
-{
-  /* USER CODE BEGIN MX_GPIO_Init_1 */
-
-  /* USER CODE END MX_GPIO_Init_1 */
-
-  /* GPIO Ports Clock Enable */
-  __HAL_RCC_GPIOF_CLK_ENABLE();
-  __HAL_RCC_GPIOC_CLK_ENABLE();
-  __HAL_RCC_GPIOA_CLK_ENABLE();
-  __HAL_RCC_GPIOG_CLK_ENABLE();
-  __HAL_RCC_GPIOE_CLK_ENABLE();
-  __HAL_RCC_GPIOD_CLK_ENABLE();
-
-  /* USER CODE BEGIN MX_GPIO_Init_2 */
-
-  /* USER CODE END MX_GPIO_Init_2 */
-}
-
 /* USER CODE BEGIN 4 */
 
 /* USER CODE END 4 */
@@ -327,8 +287,7 @@ void Error_Handler(void)
   }
   /* USER CODE END Error_Handler_Debug */
 }
-
-#ifdef  USE_FULL_ASSERT
+#ifdef USE_FULL_ASSERT
 /**
   * @brief  Reports the name of the source file and the source line number
   *         where the assert_param error has occurred.

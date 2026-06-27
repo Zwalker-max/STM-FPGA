@@ -1,0 +1,45 @@
+/*********************************************************
+* 模块：dac_control
+* 功能：AD9740 DAC 输出控制
+* 描述：将波形数据寄存输出，支持DAC使能/禁用
+*
+* 操作说明：
+*   正常模式（dac_enable=1）：dac_data = wf_data
+*   禁用模式（dac_enable=0）：dac_data = 0x200（中间电位）
+*   注意：DAC_CLK应在顶层由PLL c1（+90°移相）提供，
+*         使时钟上升沿位于数据眼图中央，满足AD9740建立时间。
+*
+* AD9740时序要求：
+*   tSU (data setup time)  : 2.0ns min
+*   tHD (data hold time)   : 1.5ns min
+*   125MHz时钟周期 = 8ns，若数据和时钟同沿出发，
+*   建议将DAC_CLK相对clk移相+90°（约2ns）以保证裕量。
+**********************************************************/
+module dac_control (
+    //====== 时钟和复位 ======
+    input  wire          clk,           //125MHz（与DDS同源）
+    input  wire          rst_n,         //异步复位 低有效
+
+    //====== 数据接口 ======
+    input  wire [9:0]    wf_data,       //波形数据（来自ram_2port1的q[9:0]）
+    input  wire          dac_enable,    //DAC使能（1=正常输出，0=强制中间值）
+
+    //====== DAC输出 ======
+    output reg  [9:0]    dac_data       //AD9740数据（DAC_D[9:0]）
+);
+
+    //AD9740中间电位（输出共模点）
+    //10位DAC范围0-1023，中间值 = 512 = 0x200
+    localparam [9:0] MID_SCALE = 10'h200;
+
+    //输出寄存器：对齐到125MHz时钟域
+    always @(posedge clk or negedge rst_n) begin
+        if(!rst_n)
+            dac_data <= MID_SCALE;
+        else if(!dac_enable)
+            dac_data <= MID_SCALE;         //强制中间电位（DAC输出静音）
+        else
+            dac_data <= wf_data;           //正常DDS波形输出
+    end
+
+endmodule
