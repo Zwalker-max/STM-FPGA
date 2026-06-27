@@ -284,20 +284,20 @@ agreement for further details.
 	(pt 544 128)
 )
 (connector
-	(pt 360 232)
-	(pt 328 232)
-)
-(connector
-	(pt 328 232)
-	(pt 320 232)
-)
-(connector
 	(pt 544 112)
 	(pt 552 112)
 )
 (connector
 	(pt 552 112)
 	(pt 600 112)
+)
+(connector
+	(pt 320 232)
+	(pt 328 232)
+)
+(connector
+	(pt 328 232)
+	(pt 360 232)
 )
 (junction (pt 328 232))
 (junction (pt 552 112))
