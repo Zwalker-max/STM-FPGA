@@ -18,6 +18,8 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "gpio.h"
+#include "fmc.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -44,8 +46,6 @@
 
 /* Private variables ---------------------------------------------------------*/
 
-SRAM_HandleTypeDef hsram1;
-
 /* USER CODE BEGIN PV */
 
 /* USER CODE END PV */
@@ -53,8 +53,6 @@ SRAM_HandleTypeDef hsram1;
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
 static void MPU_Config(void);
-static void MX_GPIO_Init(void);
-static void MX_FMC_Init(void);
 /* USER CODE BEGIN PFP */
 
 /* USER CODE END PFP */
@@ -117,30 +115,23 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-		FPGA[reg_addr] = w_data;		//д FPGA�Ĵ���
-		r_data = FPGA[reg_addr];		//�ض�
-		if(r_data == w_data)				//��д����ƥ��
+		FPGA[reg_addr] = w_data;		//FMC写操作：向FPGA对应地址寄存器写入数据
+		r_data = FPGA[reg_addr];		//FMC读操作：从同一地址回读数据
+		if(r_data == w_data)				//校验读写是否一致，判断通信正常
 		{
-			if(reg_addr < 20000)			//û�в������мĴ���
+			if(reg_addr < 20000)			//没有测完所有寄存器
 			{
-				w_data ++;
-				reg_addr++;							//����������һ����ַ�ļĴ���
+				w_data++; 
+				reg_addr++;							//继续测试下一个地址的寄存器
 			}
-			else                                       //ѭ������
+			else											//循环测试
 			{
 				w_data = 0;
 				reg_addr = 0;
 			}
 		}
-//		HAL_GPIO_WritePin(GPIOC,GPIO_PIN_0,1);
-//		HAL_GPIO_WritePin(GPIOE,GPIO_PIN_10,1);
-//		HAL_Delay(1);
-//		HAL_GPIO_WritePin(GPIOC,GPIO_PIN_0,0);
-//		HAL_GPIO_WritePin(GPIOE,GPIO_PIN_10,0);
-//		HAL_Delay(1);
 		
-//		HAL_GPIO_TogglePin(GPIOC,GPIO_PIN_0);
-//		HAL_GPIO_TogglePin(GPIOE,GPIO_PIN_10);
+//		HAL_Delay(1);
 
 
     /* USER CODE END WHILE */
@@ -207,83 +198,6 @@ void SystemClock_Config(void)
   {
     Error_Handler();
   }
-}
-
-/* FMC initialization function */
-static void MX_FMC_Init(void)
-{
-
-  /* USER CODE BEGIN FMC_Init 0 */
-
-  /* USER CODE END FMC_Init 0 */
-
-  FMC_NORSRAM_TimingTypeDef Timing = {0};
-
-  /* USER CODE BEGIN FMC_Init 1 */
-
-  /* USER CODE END FMC_Init 1 */
-
-  /** Perform the SRAM1 memory initialization sequence
-  */
-  hsram1.Instance = FMC_NORSRAM_DEVICE;
-  hsram1.Extended = FMC_NORSRAM_EXTENDED_DEVICE;
-  /* hsram1.Init */
-  hsram1.Init.NSBank = FMC_NORSRAM_BANK1;
-  hsram1.Init.DataAddressMux = FMC_DATA_ADDRESS_MUX_DISABLE;
-  hsram1.Init.MemoryType = FMC_MEMORY_TYPE_SRAM;
-  hsram1.Init.MemoryDataWidth = FMC_NORSRAM_MEM_BUS_WIDTH_16;
-  hsram1.Init.BurstAccessMode = FMC_BURST_ACCESS_MODE_DISABLE;
-  hsram1.Init.WaitSignalPolarity = FMC_WAIT_SIGNAL_POLARITY_LOW;
-  hsram1.Init.WaitSignalActive = FMC_WAIT_TIMING_BEFORE_WS;
-  hsram1.Init.WriteOperation = FMC_WRITE_OPERATION_ENABLE;
-  hsram1.Init.WaitSignal = FMC_WAIT_SIGNAL_DISABLE;
-  hsram1.Init.ExtendedMode = FMC_EXTENDED_MODE_DISABLE;
-  hsram1.Init.AsynchronousWait = FMC_ASYNCHRONOUS_WAIT_DISABLE;
-  hsram1.Init.WriteBurst = FMC_WRITE_BURST_DISABLE;
-  hsram1.Init.ContinuousClock = FMC_CONTINUOUS_CLOCK_SYNC_ONLY;
-  hsram1.Init.WriteFifo = FMC_WRITE_FIFO_DISABLE;
-  hsram1.Init.PageSize = FMC_PAGE_SIZE_NONE;
-  /* Timing */
-  Timing.AddressSetupTime = 4;
-  Timing.AddressHoldTime = 15;
-  Timing.DataSetupTime = 3;
-  Timing.BusTurnAroundDuration = 2;
-  Timing.CLKDivision = 16;
-  Timing.DataLatency = 17;
-  Timing.AccessMode = FMC_ACCESS_MODE_A;
-  /* ExtTiming */
-
-  if (HAL_SRAM_Init(&hsram1, &Timing, NULL) != HAL_OK)
-  {
-    Error_Handler( );
-  }
-
-  /* USER CODE BEGIN FMC_Init 2 */
-
-  /* USER CODE END FMC_Init 2 */
-}
-
-/**
-  * @brief GPIO Initialization Function
-  * @param None
-  * @retval None
-  */
-static void MX_GPIO_Init(void)
-{
-  /* USER CODE BEGIN MX_GPIO_Init_1 */
-
-  /* USER CODE END MX_GPIO_Init_1 */
-
-  /* GPIO Ports Clock Enable */
-  __HAL_RCC_GPIOF_CLK_ENABLE();
-  __HAL_RCC_GPIOG_CLK_ENABLE();
-  __HAL_RCC_GPIOE_CLK_ENABLE();
-  __HAL_RCC_GPIOD_CLK_ENABLE();
-  __HAL_RCC_GPIOC_CLK_ENABLE();
-
-  /* USER CODE BEGIN MX_GPIO_Init_2 */
-
-  /* USER CODE END MX_GPIO_Init_2 */
 }
 
 /* USER CODE BEGIN 4 */
