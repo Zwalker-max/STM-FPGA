@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/Core/Inc/fmc.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Core/Inc/ltdc.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Core/Src/fmc.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Core/Src/ltdc.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Core/Src/usart.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Core/myfile/app.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Core/myfile/vna_cal_fun.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Drivers/AD9959/ad9959.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Drivers/AD9959/ad9959.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Drivers/AD9959/ad9959_uart.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Drivers/AD9959/ad9959_uart.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Drivers/TOUCH" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Middlewares/ST/ARM/DSP/Inc/arm_common_tables.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Middlewares/ST/ARM/DSP/Inc/arm_const_structs.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Middlewares/ST/ARM/DSP/Inc/arm_math.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Middlewares/lvgl" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Middlewares/lvgl/ui/lv_font_MiSans_Normal_18.c" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Middlewares/lvgl/ui/lv_font_MiSans_Normal_22.c" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Middlewares/lvgl/ui/ui.c" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Middlewares/lvgl/ui/ui.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Middlewares/lvgl/ui/ui_Screen1.c" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Middlewares/lvgl/ui/ui_events.h" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Middlewares/lvgl/ui/ui_font_HMOS18.c" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Middlewares/lvgl/ui/ui_font_SourceHanSansCN.c" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Middlewares/lvgl/ui/ui_font_SourceHanSansCN15.c" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Middlewares/lvgl/ui/ui_helpers.c" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Middlewares/lvgl/ui/ui_helpers.h" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Middlewares/lvgl/ui/ui_img_smith_png.c" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lin_dsp/inc/lin_dsp.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/lin_dsp/inc/lin_dsp_app.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/lin_dsp/inc/lin_dsp_rfft.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/lin_dsp/inc/my_dsp.h" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lin_dsp/inc/my_dsp_cfft.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/lin_dsp/inc/my_dsp_conf.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/lin_dsp/inc/my_dsp_def.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/lin_dsp/inc/my_dsp_filter.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/lin_dsp/inc/my_dsp_fir.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/lin_dsp/inc/my_dsp_iir.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/lin_dsp/inc/my_dsp_malloc.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/lin_dsp/inc/my_dsp_math.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/lin_dsp/inc/my_dsp_rdtft.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/lin_dsp/inc/my_dsp_rfft.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/lin_dsp/inc/my_dsp_src.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/lin_dsp/inc/my_dsp_win.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/lin_dsp/inc/my_dsp_win_conf.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/lin_dsp/inc/my_dsp_win_rom.h" charset="GBK" />
+  </component>
+</project>

@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "app.h": "c",
+        "vna_cal_fun.h": "c",
+        "ui_helpers.h": "c",
+        "module_port.h": "c",
+        "vna.h": "c",
+        "lin_dsp_def.h": "c",
+        "my_dsp.h": "c",
+        "atomic": "c",
+        "vna_cal_para.h": "c"
+    }
+}

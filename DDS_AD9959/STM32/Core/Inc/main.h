@@ -31,7 +31,7 @@ extern "C" {
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include <stdbool.h>
 /* USER CODE END Includes */
 
 /* Exported types ------------------------------------------------------------*/
@@ -63,6 +63,30 @@ void Error_Handler(void);
 #define LCD_DC_GPIO_Port GPIOE
 #define LCD_RST_Pin GPIO_PIN_5
 #define LCD_RST_GPIO_Port GPIOE
+#define LED_1_Pin GPIO_PIN_13
+#define LED_1_GPIO_Port GPIOC
+#define LED_2_Pin GPIO_PIN_14
+#define LED_2_GPIO_Port GPIOC
+#define LED_3_Pin GPIO_PIN_15
+#define LED_3_GPIO_Port GPIOC
+#define KEY_S1_Pin GPIO_PIN_6
+#define KEY_S1_GPIO_Port GPIOF
+#define KEY_S2_Pin GPIO_PIN_7
+#define KEY_S2_GPIO_Port GPIOF
+#define KEY_S3_Pin GPIO_PIN_8
+#define KEY_S3_GPIO_Port GPIOF
+#define KEY_S4_Pin GPIO_PIN_9
+#define KEY_S4_GPIO_Port GPIOF
+#define AD9959_UPD_Pin GPIO_PIN_4
+#define AD9959_UPD_GPIO_Port GPIOA
+#define AD9959_SCL_Pin GPIO_PIN_7
+#define AD9959_SCL_GPIO_Port GPIOA
+#define AD9959_RST_Pin GPIO_PIN_4
+#define AD9959_RST_GPIO_Port GPIOC
+#define AD9959_CS_Pin GPIO_PIN_5
+#define AD9959_CS_GPIO_Port GPIOC
+#define AD9959_SDA_Pin GPIO_PIN_0
+#define AD9959_SDA_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
 
