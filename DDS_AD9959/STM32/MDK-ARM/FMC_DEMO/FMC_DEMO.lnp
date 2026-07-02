@@ -46,6 +46,7 @@
 "fmc_demo\bsp_gpio.o"
 "fmc_demo\bsp_lcd.o"
 "fmc_demo\bsp_uart.o"
+"fmc_demo\ad9959.o"
 --strict --scatter "FMC_DEMO\FMC_DEMO.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

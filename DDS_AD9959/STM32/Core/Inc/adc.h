@@ -36,6 +36,8 @@ extern ADC_HandleTypeDef hadc1;
 
 extern ADC_HandleTypeDef hadc2;
 
+extern ADC_HandleTypeDef hadc3;
+
 /* USER CODE BEGIN Private defines */
 #define ADC_DataSize 50
 #define ADC_DualDataSize 1024
@@ -58,6 +60,7 @@ typedef struct {
 
 void MX_ADC1_Init(void);
 void MX_ADC2_Init(void);
+void MX_ADC3_Init(void);
 
 /* USER CODE BEGIN Prototypes */
 void myADC_Start_DMA(myADC_HandleTypeDef *myhadc);

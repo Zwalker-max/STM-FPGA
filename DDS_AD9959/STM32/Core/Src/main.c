@@ -120,6 +120,7 @@ int main(void)
   MX_ADC2_Init();
   MX_TIM6_Init();
   MX_TIM7_Init();
+  MX_ADC3_Init();
   /* USER CODE BEGIN 2 */
 	
 	MainProcess();

@@ -43,6 +43,12 @@ static void UpdateScreen(void);
 
 void MainProcess(void)
 {
+	AD9959_Init();
+	AD9959_Config(AD9959_CHANNEL_0 , 10000 , 0.f, 1023);
+	AD9959_Config(AD9959_CHANNEL_1 , 10000 , 90.f, 800);
+	AD9959_Config(AD9959_CHANNEL_2 , 10000 , 180.f, 500);
+	AD9959_Config(AD9959_CHANNEL_3 , 10000 , 270.f, 250);
+	
 	while (1)
 	{
 		
